@@ -62,7 +62,9 @@ def extract_vehicle_details(soup, details=None):
             try:
                 # Registration Expiry Date: ensure it’s just a date string
                 if 'Registration Expiry Date' in details and details['Registration Expiry Date']:
-                    match = re.search(r'\b\d{2}/\d{2}/\d{4}\b', details['Registration Expiry Date'])
+                    pattern = r'\b\d{2}[-/]\d{2}[-/]\d{4}\b'
+                    text = details['Registration Expiry Date']
+                    match = re.search(pattern, text)
                     details['Registration Expiry Date'] = match.group(0) if match else '?'
             except Exception as e:
                 print(f"Error parsing Registration Expiry Date: {e}")

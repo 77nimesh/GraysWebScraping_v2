@@ -7,7 +7,7 @@ from tqdm import tqdm
 from functions.columns import columns_list
 from functions.check_status import extract_url_status
 from functions.extract_details import extract_vehicle_details
-from functions.collect_links import collect_links
+from functions.collect_links import collect_car_links
 
 # Setup logging
 if not os.path.exists('logs'):
@@ -23,6 +23,9 @@ logging.basicConfig(
 )
 
 async def main():
+
+    await collect_car_links()  # Collect new car links and update the CSV
+
     # Load existing car links (pending auctions)
     try:
         car_links_df = pd.read_csv('CSV_data/car_links.csv')
@@ -68,8 +71,6 @@ async def main():
     # Launch browser
     async with async_playwright() as p:
 
-        await collect_links()  # Collect new car links and update the CSV
-
         browser = await p.chromium.launch(headless=True)
         batch_size = 8
         progress = tqdm(total=len(car_links), desc="Processing car links", unit="link")
@@ -79,7 +80,7 @@ async def main():
         for batch_start in range(0, len(car_links_copy), batch_size):
             batch_links = car_links_copy[batch_start: batch_start + batch_size]
             tasks = [extract_url_status(link, browser) for link in batch_links]
-            results = await asyncio.gather(*tasks)
+            results = await asyncio.gather(*tasks) 
 
             for status_code, soup, price, url in results:
                 if status_code == 'running':
