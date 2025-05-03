@@ -68,6 +68,17 @@ if errorlevel 1 (
     exit /b 1
 )
 
+:: Push all changes to the remote repository
+git add . | tee -a "%LOGFILE%"
+git commit -am "Automated commit after scraped by main.bat" | tee -a "%LOGFILE%"
+git push origin main | tee -a "%LOGFILE%"
+if errorlevel 1 (
+    echo Git push failed. | tee -a "%LOGFILE%"
+    exit /b 1
+)
+git status | tee -a "%LOGFILE%"
+
+
 echo Python script executed successfully. | tee -a "%LOGFILE%"
 echo _______________________________ | tee -a "%LOGFILE%"
 echo Script finished at %date% %time% | tee -a "%LOGFILE%"
