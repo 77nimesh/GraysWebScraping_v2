@@ -1,6 +1,7 @@
 import asyncio
 import os
 import logging
+from colorlog import ColoredFormatter
 from playwright.async_api import async_playwright
 import pandas as pd
 from tqdm import tqdm
@@ -9,24 +10,50 @@ from functions.check_status import extract_url_status
 from functions.extract_details import extract_vehicle_details
 from functions.collect_links import collect_car_links
 
-# Setup logging
+# Setup logging with color
 if not os.path.exists('logs'):
     os.makedirs('logs')
 
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(asctime)s [%(levelname)s] %(message)s',
-    handlers=[
-        logging.FileHandler('logs/scraping.log'),
-        logging.StreamHandler()
-    ]
-)
+class CustomColorFormatter(ColoredFormatter):
+    def format(self, record):
+        msg = record.getMessage().lower()
+        if 'referred' in msg:
+            self.log_colors['INFO'] = 'cyan'
+        elif 'sold' in msg:
+            self.log_colors['INFO'] = 'green'
+        elif 'cancelled' in msg:
+            self.log_colors['INFO'] = 'red'
+        elif 'auctioning' in msg:
+            self.log_colors['INFO'] = 'purple'
+        else:
+            self.log_colors['INFO'] = 'white'
+        return super().format(record)
+
+console_handler = logging.StreamHandler()
+console_handler.setFormatter(CustomColorFormatter(
+    "%(log_color)s%(asctime)s [%(levelname)s] %(message)s",
+    datefmt='%Y-%m-%d %H:%M:%S',
+    log_colors={
+        'DEBUG': 'cyan',
+        'INFO': 'white',
+        'WARNING': 'yellow',
+        'ERROR': 'red',
+        'CRITICAL': 'bold_red',
+    }
+))
+
+file_handler = logging.FileHandler('logs/scraping.log')
+file_handler.setFormatter(logging.Formatter('%(asctime)s [%(levelname)s] %(message)s'))
+
+logger = logging.getLogger()
+logger.handlers = []
+logger.addHandler(console_handler)
+logger.addHandler(file_handler)
+logger.setLevel(logging.INFO)
 
 async def main():
+    await collect_car_links()
 
-    await collect_car_links()  # Collect new car links and update the CSV
-
-    # Load existing car links (pending auctions)
     try:
         car_links_df = pd.read_csv('CSV_data/car_links.csv')
         car_links = car_links_df['Car Links'].tolist()
@@ -36,7 +63,6 @@ async def main():
         car_links = []
         car_links_df = pd.DataFrame(columns=['Car Links'])
 
-    # Load existing sold car records
     try:
         sold_cars_df = pd.read_csv('CSV_data/sold_cars.csv')
         existing_vin_dates_sold = set(zip(sold_cars_df['VIN'].fillna(''), sold_cars_df['date'].fillna('')))
@@ -46,7 +72,6 @@ async def main():
         existing_vin_dates_sold = set()
         logging.warning("No existing sold car records found.")
 
-    # Load existing referred car records
     try:
         referred_df = pd.read_csv('CSV_data/referred_cars.csv')
         existing_vin_dates_referred = set(zip(referred_df['VIN'].fillna(''), referred_df['date'].fillna('')))
@@ -56,7 +81,6 @@ async def main():
         existing_vin_dates_referred = set()
         logging.warning("No existing referred car records found.")
 
-    # Load existing scraped links
     try:
         scraped_links_df = pd.read_csv('CSV_data/scraped_links.csv')
         logging.info(f"Loaded {len(scraped_links_df)} existing scraped links.")
@@ -68,9 +92,7 @@ async def main():
         logging.info("No car links to process. Exiting.")
         return
 
-    # Launch browser
     async with async_playwright() as p:
-
         browser = await p.chromium.launch(headless=True)
         batch_size = 8
         progress = tqdm(total=len(car_links), desc="Processing car links", unit="link")
@@ -80,7 +102,7 @@ async def main():
         for batch_start in range(0, len(car_links_copy), batch_size):
             batch_links = car_links_copy[batch_start: batch_start + batch_size]
             tasks = [extract_url_status(link, browser) for link in batch_links]
-            results = await asyncio.gather(*tasks) 
+            results = await asyncio.gather(*tasks)
 
             for status_code, soup, price, url in results:
                 if status_code == 'running':
@@ -137,7 +159,6 @@ async def main():
                     elif status_code == 'error':
                         logging.error(f"Failed to retrieve URL (will retry later): {url}")
 
-            # Save after each batch
             car_links_df = pd.DataFrame(car_links, columns=['Car Links'])
             car_links_df.to_csv('CSV_data/car_links.csv', index=False)
             referred_df.to_csv('CSV_data/referred_cars.csv', index=False)

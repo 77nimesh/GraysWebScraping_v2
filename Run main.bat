@@ -41,7 +41,7 @@ echo.
 if not exist logs mkdir logs
 
 :: Enable logging
-set LOGFILE=logs\Script_log.txt
+set LOGFILE=logs\main.log
 
 :: Overwrite the log file if it exists at the start
 echo _______________________________ > "%LOGFILE%"
