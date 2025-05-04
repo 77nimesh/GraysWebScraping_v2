@@ -67,7 +67,7 @@ async def collect_car_links():
                 for element in car_elements:
                     try:
                         link = await element.get_attribute('href')
-                        if link and link not in existing_links and link not in new_links:
+                        if link and 'motor-vehicles-motor-cycles' in link and link not in existing_links and link not in new_links:
                             new_links.add(link)
                     except (TypeError, AttributeError) as err:
                         print(f"Error getting link: {err}")
@@ -91,6 +91,7 @@ async def collect_car_links():
     # Update the CSV file with new links only
     if new_links:
         all_links = existing_links.union(new_links)
+        all_links = {link for link in all_links if 'motor-vehicles-motor-cycles' in link}
         links_df = pd.DataFrame(all_links, columns=['Car Links'])
         os.makedirs(os.path.dirname(CSV_FILE), exist_ok=True)  # Ensure folder exists
         links_df.to_csv(CSV_FILE, index=False)
