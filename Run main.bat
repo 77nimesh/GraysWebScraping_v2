@@ -86,5 +86,5 @@ echo _______________________________ | tee -a "%LOGFILE%"
 
 echo Log file created at %LOGFILE%
 pause
-exit /b 0
+exit 0
 :: End of script

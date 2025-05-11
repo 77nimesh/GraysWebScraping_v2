@@ -163,6 +163,8 @@ async def main():
             car_links_df.to_csv('CSV_data/car_links.csv', index=False)
             referred_df.to_csv('CSV_data/referred_cars.csv', index=False)
             sold_cars_df.to_csv('CSV_data/sold_cars.csv', index=False)
+            sold_cars_df.to_json('../soldcartracker.github.io/JSON_data/sold_cars.json', orient='records', lines=True)
+            referred_df.to_json('../soldcartracker.github.io/JSON_data/referred_cars.json', orient='records', lines=True)   
             scraped_links_df.to_csv('CSV_data/scraped_links.csv', index=False)
 
             progress.update(len(batch_links))
