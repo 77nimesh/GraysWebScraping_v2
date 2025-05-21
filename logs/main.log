@@ -923,19 +923,3 @@ Unknown status for URL: https://www.grays.com/lot/0001-60047799/motor-vehicles-m
 Unknown status for URL: https://www.grays.com/lot/0001-60047799/motor-vehicles-motor-cycles/2014-mazda-bt-50-awd-dual-cab-ute (Attempt 2)
 Unknown status for URL: https://www.grays.com/lot/0001-60047799/motor-vehicles-motor-cycles/2014-mazda-bt-50-awd-dual-cab-ute (Attempt 3)
 Failed to retrieve page after 3 attempts: https://www.grays.com/lot/0001-60047799/motor-vehicles-motor-cycles/2014-mazda-bt-50-awd-dual-cab-ute
-[main d774412] Automated commit after scraped by main.bat
- 6 files changed, 2671 insertions(+), 796 deletions(-)
-On branch main
-Your branch is ahead of 'origin/main' by 4 commits.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   logs/main.log
-
-no changes added to commit (use "git add" and/or "git commit -a")
-Python script executed successfully. 
-_______________________________ 
-Script finished at 20/05/2025 22:22:35.76 
-_______________________________ 
