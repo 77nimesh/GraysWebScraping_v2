@@ -85,6 +85,6 @@ echo Script finished at %date% %time% | tee -a "%LOGFILE%"
 echo _______________________________ | tee -a "%LOGFILE%"
 
 echo Log file created at %LOGFILE%
-:: Exit the script with success and leave the CMD window open
-exit /b 0
+:: Exit the script with success and leave the CMD window
+exit 0
 :: End of script
