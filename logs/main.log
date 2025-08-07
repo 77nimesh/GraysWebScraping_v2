@@ -1,811 +1,448 @@
 _______________________________ 
-Script started at 06/08/2025 22:03:02.05 
+Script started at 07/08/2025 22:03:02.40 
 _______________________________ 
 Virtual environment activated. 
 _______________________________ 
-[37m2025-08-06 22:04:20 [INFO] Loaded 483 car links from CSV.[0m
-[32m2025-08-06 22:04:20 [INFO] Loaded 2668 existing sold car records.[0m
-[36m2025-08-06 22:04:20 [INFO] Loaded 4972 existing referred car records.[0m
-[37m2025-08-06 22:04:20 [INFO] Loaded 16560 existing scraped links.[0m
-Loaded 480 existing links from CSV.
+[37m2025-08-07 22:04:56 [INFO] Loaded 372 car links from CSV.[0m
+[32m2025-08-07 22:04:56 [INFO] Loaded 2827 existing sold car records.[0m
+[36m2025-08-07 22:04:56 [INFO] Loaded 5107 existing referred car records.[0m
+[37m2025-08-07 22:04:56 [INFO] Loaded 16855 existing scraped links.[0m
+Loaded 188 existing links from CSV.
 Scraping page 1...
-Waiting 4.01 seconds before next page...
+Waiting 3.36 seconds before next page...
 Scraping page 2...
-No more links found. Stopping at page 2.
-Found 3 new car links.
-CSV updated with 483 total links.
-Processing car links:   0%|          | 0/483 [00:00<?, ?link/s][36m2025-08-06 22:05:15 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712614/motor-vehicles-motor-cycles/2013-fiat-500-c-s-automatic-convertible[0m
-[36m2025-08-06 22:05:15 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:05:15 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912125/motor-vehicles-motor-cycles/2010-mercedes-benz-sprinter-316-cdi-mwb-l-roof-t-diesel-manual-8-seats-van[0m
-[36m2025-08-06 22:05:15 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062337/motor-vehicles-motor-cycles/2015-kia-carnival-s-yp-automatic-8-seats-people-mover[0m
-[36m2025-08-06 22:05:15 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:05:15 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048567/motor-vehicles-motor-cycles/2010-audi-a5-2-0-tfsi-quattro-8t-manual-coupe[0m
-[36m2025-08-06 22:05:15 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:05:15 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516243/motor-vehicles-motor-cycles/2009-audi-a6-3-0-tdi-quattro-c6-turbo-diesel-auto-sedan[0m
-[36m2025-08-06 22:05:15 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:05:15 [INFO] Auction sold: https://www.grays.com/lot/0001-60048547/motor-vehicles-motor-cycles/2008-mitsubishi-triton-ka-kb-rwd-manual-5-speed-ute for $3000.0[0m
-[32m2025-08-06 22:05:15 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:05:15 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712484/motor-vehicles-motor-cycles/1991-land-rover-perentie-110-6wd-manual-troop-carrier[0m
-[36m2025-08-06 22:05:15 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:05:15 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062339/motor-vehicles-motor-cycles/2019-mitsubishi-asx-es-2wd-xc-cvt-wagon[0m
-Processing car links:   2%|1         | 8/483 [00:13<13:13,  1.67s/link][32m2025-08-06 22:05:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053857/motor-vehicles-motor-cycles/2002-subaru-impreza-rv-awd-g2-automatic-hatchback for $509.0[0m
-[32m2025-08-06 22:05:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:05:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053860/motor-vehicles-motor-cycles/2010-volkswagen-eos-155-tsi-1f-automatic-convertible for $4016.0[0m
-[32m2025-08-06 22:05:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:05:29 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712617/motor-vehicles-motor-cycles/2004-toyota-landcruiser-prado-gxl-4x4-kzj120r-t-d-manual-8-seats[0m
-[32m2025-08-06 22:05:29 [INFO] Auction sold: https://www.grays.com/lot/0001-50516290/motor-vehicles-motor-cycles/1997-toyota-landcruiser-prado-gxl-4x4-vzj95r-automatic-8-seats-wagon for $3009.0[0m
-[32m2025-08-06 22:05:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:05:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062341/motor-vehicles-motor-cycles/2016-toyota-rav-4-fwd-gxl-zsa42r-cvt-wagon[0m
-[36m2025-08-06 22:05:29 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:05:29 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712635/motor-vehicles-motor-cycles/2003-mercedes-benz-e320-elegance-w211-automatic-sedan[0m
-[36m2025-08-06 22:05:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516282/motor-vehicles-motor-cycles/2010-suzuki-swift-s-ez-manual-hatchback[0m
-[36m2025-08-06 22:05:29 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:05:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053906/motor-vehicles-motor-cycles/2010-hyundai-iload-tq-turbo-diesel-automatic-van for $1609.0[0m
-[32m2025-08-06 22:05:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:   3%|3         | 16/483 [00:26<13:01,  1.67s/link][36m2025-08-06 22:05:44 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516281/motor-vehicles-motor-cycles/2012-audi-q5-2-0-tdi-quattro-8r-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:05:44 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:05:44 [INFO] Auction sold: https://www.grays.com/lot/0001-9062357/motor-vehicles-motor-cycles/2014-mercedes-benz-ml500-w166-automatic-wagon for $18000.0[0m
-[32m2025-08-06 22:05:44 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:05:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912120/motor-vehicles-motor-cycles/2013-nissan-pathfinder-st-r52-cvt-7-seats-wagon[0m
-[35m2025-08-06 22:05:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053985/motor-vehicles-motor-cycles/2012-ford-falcon-xr6-fg-ii-automatic-sedan[0m
-[36m2025-08-06 22:05:44 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062338/motor-vehicles-motor-cycles/2010-jeep-wrangler-unlimited-sport-4x4-jk-manual-wagon[0m
-[36m2025-08-06 22:05:44 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:05:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053920/motor-vehicles-motor-cycles/2022-hyundai-tucson-highlander-n-line-awd-nx4-td-auto-8-speed-wagon[0m
-[32m2025-08-06 22:05:44 [INFO] Auction sold: https://www.grays.com/lot/0001-50516272/motor-vehicles-motor-cycles/2013-hyundai-i30-active-gd-automatic-hatchback for $5200.0[0m
-[32m2025-08-06 22:05:44 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:05:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053714/motor-vehicles-motor-cycles/2001-mercedes-benz-s500-l-w220-automatic-sedan[0m
-Processing car links:   5%|4         | 24/483 [00:42<13:47,  1.80s/link][32m2025-08-06 22:06:07 [INFO] Auction sold: https://www.grays.com/lot/0001-21053898/motor-vehicles-motor-cycles/2015-subaru-xv-2-0i-s-g4x-cvt-hatchback for $10400.0[0m
-[32m2025-08-06 22:06:07 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:06:07 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712621/motor-vehicles-motor-cycles/2012-toyota-hilux-workmate-4x4-kun26r-turbo-diesel-manual-dual-cab[0m
-[36m2025-08-06 22:06:07 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:06:07 [INFO] Auction sold: https://www.grays.com/lot/0001-21053862/motor-vehicles-motor-cycles/2013-mazda-2-neo-de-automatic-hatchback-wovr-repairable for $3500.0[0m
-[32m2025-08-06 22:06:07 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:06:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349990/motor-vehicles-motor-cycles/2012-toyota-hiace-slwb-kdh221r-turbo-diesel-automatic-van[0m
-[36m2025-08-06 22:06:07 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912090/motor-vehicles-motor-cycles/2012-ford-focus-st-lw-manual-hatchback[0m
-[36m2025-08-06 22:06:07 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:06:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912129/motor-vehicles-motor-cycles/volkswagen-amarok-tdi550-highline-2h-turbo-diesel-auto-8-speed-dual-cab[0m
-[32m2025-08-06 22:06:07 [INFO] Auction sold: https://www.grays.com/lot/0001-50712538/motor-vehicles-motor-cycles/2017-mazda-bt50-rwd-automatic-dual-cab-chassis for $5200.0[0m
-[32m2025-08-06 22:06:07 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:06:07 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053846/motor-vehicles-motor-cycles/2009-mercedes-benz-e-class-e350-avantgarde-w212-automatic-sedan[0m
-[36m2025-08-06 22:06:07 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:   7%|6         | 32/483 [01:05<16:44,  2.23s/link][35m2025-08-06 22:06:23 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053937/motor-vehicles-motor-cycles/2008-honda-accord-v6-8th-gen-automatic-sedan[0m
-[32m2025-08-06 22:06:23 [INFO] Auction sold: https://www.grays.com/lot/0001-21053859/motor-vehicles-motor-cycles/1999-subaru-forester-limited-automatic-wagon for $620.0[0m
-[32m2025-08-06 22:06:23 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:06:23 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912111/motor-vehicles-motor-cycles/2008-nissan-navara-st-r-4x4-d22-turbo-diesel-manual-dual-cab[0m
-[36m2025-08-06 22:06:23 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516280/motor-vehicles-motor-cycles/2005-mercedes-benz-c200-kompressor-classic-w203-automatic-sedan[0m
-[36m2025-08-06 22:06:23 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:06:23 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516284/motor-vehicles-motor-cycles/2013-nissan-altima-ti-s-l33-cvt-sedan[0m
-[36m2025-08-06 22:06:23 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:06:23 [INFO] Auction sold: https://www.grays.com/lot/0001-21053783/motor-vehicles-motor-cycles/2012-honda-civic-vti-9th-gen-automatic-sedan for $5109.0[0m
-[32m2025-08-06 22:06:23 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:06:23 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912087/motor-vehicles-motor-cycles/2009-holden-cruze-cd-jg-automatic-sedan[0m
-C:\Users\77nim\OneDrive\Desktop\Practice\GraysWebScraping_v2\main.py:125: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
-  referred_df = pd.concat([referred_df, pd.DataFrame([row_data])], ignore_index=True)
-[36m2025-08-06 22:06:23 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:06:23 [INFO] Auction sold: https://www.grays.com/lot/0001-50516252/motor-vehicles-motor-cycles/2018-mercedes-benz-a-class-a200d-w176-turbo-diesel-automatic-hatchback for $9200.0[0m
-[32m2025-08-06 22:06:23 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:   8%|8         | 40/483 [01:20<15:38,  2.12s/link][36m2025-08-06 22:06:36 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516259/motor-vehicles-motor-cycles/2021-toyota-landcruiser-workmate-4x4-vdj76r-turbo-diesel-manual-wagon[0m
-[36m2025-08-06 22:06:36 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:06:36 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712604/motor-vehicles-motor-cycles/2014-toyota-hilux-workmate-tgn16r-manual-cab-chassis[0m
-[36m2025-08-06 22:06:36 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:06:36 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054064/motor-vehicles-motor-cycles/2013-ford-territory-tx-rwd-sz-turbo-diesel-automatic-7-seats-wagon[0m
-[36m2025-08-06 22:06:36 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912070/motor-vehicles-motor-cycles/2010-holden-barina-spark-cdx-mj-manual-hatchback[0m
-[36m2025-08-06 22:06:36 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:06:36 [INFO] Auction sold: https://www.grays.com/lot/0001-9062344/motor-vehicles-motor-cycles/2007-toyota-tarago-automatic-8-seats-people-carrier for $609.0[0m
-[32m2025-08-06 22:06:36 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:06:36 [INFO] Auction sold: https://www.grays.com/lot/0001-21053928/motor-vehicles-motor-cycles/2007-toyota-aurion-at-x-gsv40r-automatic-sedan for $2809.0[0m
-[32m2025-08-06 22:06:36 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:06:36 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712607/motor-vehicles-motor-cycles/2017-mercedes-benz-sprinter-319-cdi-mwb-l-roof-turbo-diesel-automatic-van[0m
-[36m2025-08-06 22:06:36 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:06:36 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516235/motor-vehicles-motor-cycles/2015-nissan-pathfinder-st-r52-cvt-7-seats-wagon[0m
-[36m2025-08-06 22:06:36 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  10%|9         | 48/483 [01:33<14:05,  1.94s/link][36m2025-08-06 22:06:51 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912071/motor-vehicles-motor-cycles/2012-holden-colorado-4x4-lt-rg-turbo-diesel-manual-dual-cab[0m
-[36m2025-08-06 22:06:51 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:06:51 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516286/motor-vehicles-motor-cycles/2012-skoda-yeti-77-tsi-4x2-automatic-wagon[0m
-[36m2025-08-06 22:06:51 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:06:51 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048562/motor-vehicles-motor-cycles/subaru-impreza-wrx-awd-s44-manual-sedan[0m
-[36m2025-08-06 22:06:51 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:06:51 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054057/motor-vehicles-motor-cycles/2016-nissan-qashqai-tl-j11-turbo-diesel-cvt-wagon[0m
-[35m2025-08-06 22:06:51 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054006/motor-vehicles-motor-cycles/2010-toyota-landcruiser-prado-gxl-grj150r-automatic-7-seats-wagon[0m
-[35m2025-08-06 22:06:51 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053958/motor-vehicles-motor-cycles/2015-toyota-camry-altise-asv50r-automatic-sedan[0m
-[36m2025-08-06 22:06:51 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912092/motor-vehicles-motor-cycles/2006-mercedes-benz-ml63-amg-w164-automatic-wagon[0m
-[36m2025-08-06 22:06:51 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:06:51 [INFO] Auction sold: https://www.grays.com/lot/0001-21053754/motor-vehicles-motor-cycles/2014-ford-territory-tx-4x4-sz-turbo-diesel-automatic-wagon for $2209.0[0m
-[32m2025-08-06 22:06:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  12%|#1        | 56/483 [01:48<13:40,  1.92s/link][36m2025-08-06 22:07:03 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053930/motor-vehicles-motor-cycles/2018-nissan-x-trail-st-l-fwd-t32-automatic-wagon[0m
-[36m2025-08-06 22:07:03 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:07:03 [INFO] Auction sold: https://www.grays.com/lot/0001-21053929/motor-vehicles-motor-cycles/2012-holden-barina-cdx-tm-automatic-sedan for $1509.0[0m
-[32m2025-08-06 22:07:03 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:07:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053983/motor-vehicles-motor-cycles/2013-suzuki-swift-gl-fz-automatic-hatchback[0m
-[32m2025-08-06 22:07:03 [INFO] Auction sold: https://www.grays.com/lot/0001-21053751/motor-vehicles-motor-cycles/2013-nissan-pathfinder-st-l-r52-cvt-7-seats-wagon for $7500.0[0m
-[32m2025-08-06 22:07:03 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:07:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912119/motor-vehicles-motor-cycles/1997-saab-900-se-2-0t-talladega-automatic-convertible[0m
-[35m2025-08-06 22:07:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349980/motor-vehicles-motor-cycles/2013-mercedes-benz-c180-be-c204-automatic-coupe[0m
-[35m2025-08-06 22:07:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912137/motor-vehicles-motor-cycles/2020-ldv-d90-4wd-executive-turbo-diesel-automatic-8-speed-7-seats-wagon[0m
-[32m2025-08-06 22:07:03 [INFO] Auction sold: https://www.grays.com/lot/0001-50516275/motor-vehicles-motor-cycles/2016-mazda-cx-5-grand-touring-ke-turbo-diesel-automatic-wagon for $8300.0[0m
-[32m2025-08-06 22:07:03 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  13%|#3        | 64/483 [02:01<12:38,  1.81s/link][35m2025-08-06 22:07:17 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053978/motor-vehicles-motor-cycles/2016-land-rover-range-rover-evoque-td4-150-se-turbo-diesel-9-auto-wagon[0m
-[36m2025-08-06 22:07:17 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912097/motor-vehicles-motor-cycles/2009-holden-commodore-international-ve-automatic-wagon[0m
-[36m2025-08-06 22:07:17 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:07:17 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053546/motor-vehicles-motor-cycles/2024-toyota-hiace-slwb-gdh320r-turbo-diesel-automatic-van[0m
-[36m2025-08-06 22:07:17 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:07:17 [INFO] Auction sold: https://www.grays.com/lot/0001-21053809/motor-vehicles-motor-cycles/2017-kia-sorento-si-pe-turbo-diesel-automatic-8-speed-7-seats-wagon for $14700.0[0m
-[32m2025-08-06 22:07:17 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:07:17 [INFO] Auction sold: https://www.grays.com/lot/0001-21053912/motor-vehicles-motor-cycles/2008-bmw-x5-3-0d-e70-turbo-diesel-automatic-wagon for $3500.0[0m
-[32m2025-08-06 22:07:17 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:07:17 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054062/motor-vehicles-motor-cycles/2009-holden-commodore-omega-ve-automatic-sedan[0m
-[35m2025-08-06 22:07:17 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516305/motor-vehicles-motor-cycles/2021-land-rover-discovery-d300-se-series-5-td-at-8-speed-7-seats-wagon[0m
-[35m2025-08-06 22:07:17 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912131/motor-vehicles-motor-cycles/2017-subaru-outback-2-0d-premium-b6a-turbo-diesel-manual-wagon[0m
-Processing car links:  15%|#4        | 72/483 [02:14<12:10,  1.78s/link][35m2025-08-06 22:07:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053949/motor-vehicles-motor-cycles/2014-holden-cruze-cd-jh-automatic-hatchback[0m
-[32m2025-08-06 22:07:34 [INFO] Auction sold: https://www.grays.com/lot/0001-50516293/motor-vehicles-motor-cycles/2011-jaguar-xf-3-0d-luxury-turbo-diesel-automatic-8-speed-sedan for $9700.0[0m
-[32m2025-08-06 22:07:34 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:07:34 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516289/motor-vehicles-motor-cycles/2015-ssangyong-korando-s-manual-wagon[0m
-[36m2025-08-06 22:07:34 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:07:34 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712624/motor-vehicles-motor-cycles/2017-ford-ranger-xlt-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:07:34 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:07:34 [INFO] Auction sold: https://www.grays.com/lot/0001-50516237/motor-vehicles-motor-cycles/2013-ford-focus-sport-lw-ii-turbo-diesel-automatic-hatchback for $909.0[0m
-[32m2025-08-06 22:07:34 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:07:34 [INFO] Auction sold: https://www.grays.com/lot/0001-21053847/motor-vehicles-motor-cycles/2008-hyundai-i30-slx-fd-manual-hatchback for $309.0[0m
-[32m2025-08-06 22:07:34 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:07:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912136/motor-vehicles-motor-cycles/2020-ldv-t60-pro-turbo-diesel-manual-dual-cab[0m
-[35m2025-08-06 22:07:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062391/motor-vehicles-motor-cycles/2013-ford-focus-manual-hatchback[0m
-Processing car links:  17%|#6        | 80/483 [02:31<12:39,  1.88s/link][35m2025-08-06 22:07:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912122/motor-vehicles-motor-cycles/2012-subaru-xv-2-0i-s-g4x-manual-hatchback[0m
-[35m2025-08-06 22:07:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054007/motor-vehicles-motor-cycles/2008-toyota-yaris-yr-ncp90r-automatic-hatchback[0m
-[35m2025-08-06 22:07:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054060/motor-vehicles-motor-cycles/2008-hyundai-tucson-city-sx-automatic-wagon[0m
-[35m2025-08-06 22:07:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062404/motor-vehicles-motor-cycles/2019-ford-ranger-xl-4x4-px-iii-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:07:50 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912073/motor-vehicles-motor-cycles/2014-suzuki-kizashi-sport-touring-fr-cvt-sedan[0m
-[36m2025-08-06 22:07:50 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:07:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053955/motor-vehicles-motor-cycles/2012-subaru-forester-x-s3-automatic-wagon[0m
-[35m2025-08-06 22:07:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062397/motor-vehicles-motor-cycles/2008-nissan-navara-st-r-4x4-d22-turbo-diesel-manual-dual-cab[0m
-[32m2025-08-06 22:07:50 [INFO] Auction sold: https://www.grays.com/lot/0001-21053757/motor-vehicles-motor-cycles/2018-mercedes-benz-glc-class-glc250d-x253-t-d-9-auto-wagon-amg-pack for $25100.0[0m
-[32m2025-08-06 22:07:50 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  18%|#8        | 88/483 [02:47<12:37,  1.92s/link][36m2025-08-06 22:08:07 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912091/motor-vehicles-motor-cycles/2008-mercedes-benz-ml320cdi-w164-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:08:07 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:08:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053743/motor-vehicles-motor-cycles/2013-mercedes-benz-sprinter-316-cdi-mwb-l-roof-turbo-diesel-automatic-van[0m
-[35m2025-08-06 22:08:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053970/motor-vehicles-motor-cycles/2011-toyota-yaris-yr-ncp90r-automatic-hatchback[0m
-[32m2025-08-06 22:08:07 [INFO] Auction sold: https://www.grays.com/lot/0001-9062307/motor-vehicles-motor-cycles/2009-suzuki-grand-vitara-prestige-4x4-jt-automatic-wagon for $3500.0[0m
-[32m2025-08-06 22:08:07 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:08:07 [INFO] Auction sold: https://www.grays.com/lot/0001-21053864/motor-vehicles-motor-cycles/2014-mitsubishi-outlander-es-2wd-zj-cvt-wagon for $6200.0[0m
-[32m2025-08-06 22:08:07 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:08:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053989/motor-vehicles-motor-cycles/2000-holden-commodore-executive-vt-automatic-sedan[0m
-[35m2025-08-06 22:08:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054053/motor-vehicles-motor-cycles/2010-toyota-camry-altise-acv40r-automatic-sedan[0m
-[35m2025-08-06 22:08:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053940/motor-vehicles-motor-cycles/1989-toyota-landcruiser-fj62-manual-wagon[0m
-Processing car links:  20%|#9        | 96/483 [03:04<12:47,  1.98s/link][32m2025-08-06 22:08:20 [INFO] Auction sold: https://www.grays.com/lot/0001-21053830/motor-vehicles-motor-cycles/2007-hyundai-elantra-slx-hd-automatic-sedan for $1109.0[0m
-[32m2025-08-06 22:08:20 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:08:20 [INFO] Auction sold: https://www.grays.com/lot/0001-21053749/motor-vehicles-motor-cycles/2009-mitsubishi-pajero-exceed-lwb-4x4-nt-automatic-7-seats-wagon for $9600.0[0m
-[32m2025-08-06 22:08:20 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:08:20 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516257/motor-vehicles-motor-cycles/2006-ssangyong-kyron-2-0-xdi-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:08:20 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:08:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054016/motor-vehicles-motor-cycles/2011-audi-a6-2-0-tdi-c7-turbo-diesel-cvt-sedan[0m
-[35m2025-08-06 22:08:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062409/motor-vehicles-motor-cycles/2021-mercedes-benz-cla-class-cla45s-amg-c118-automatic-8-speed-coupe[0m
-[35m2025-08-06 22:08:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062384/motor-vehicles-motor-cycles/2011-kia-sorento-si-4x2-xm-automatic-7-seats-wagon[0m
-[32m2025-08-06 22:08:20 [INFO] Auction sold: https://www.grays.com/lot/0001-21053882/motor-vehicles-motor-cycles/2013-mazda-bt-50-4x4-xt-turbo-diesel-manual-extra-cab for $6600.0[0m
-[32m2025-08-06 22:08:20 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:08:20 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516245/motor-vehicles-motor-cycles/2017-jeep-compass-trailhawk-bg-turbo-diesel-9-auto-wagon[0m
-[36m2025-08-06 22:08:20 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  22%|##1       | 104/483 [03:18<11:55,  1.89s/link][35m2025-08-06 22:08:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053963/motor-vehicles-motor-cycles/2007-bmw-x5-3-0d-e70-turbo-diesel-automatic-wagon[0m
-[32m2025-08-06 22:08:33 [INFO] Auction sold: https://www.grays.com/lot/0001-50516297/motor-vehicles-motor-cycles/2011-audi-q5-2-0-tfsi-quattro-8r-automatic-wagon for $3900.0[0m
-[32m2025-08-06 22:08:33 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:08:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054052/motor-vehicles-motor-cycles/2009-ford-ranger-xl-4x2-pk-turbo-diesel-automatic-dual-cab[0m
-[32m2025-08-06 22:08:33 [INFO] Auction sold: https://www.grays.com/lot/0001-21053919/motor-vehicles-motor-cycles/2010-subaru-outback-2-0d-b5a-turbo-diesel-manual-wagon for $4309.0[0m
-[32m2025-08-06 22:08:33 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:08:33 [INFO] Auction sold: https://www.grays.com/lot/0001-21053918/motor-vehicles-motor-cycles/2013-toyota-camry-altise-asv50r-automatic-sedan-rwc-issued-23-7-25 for $9410.0[0m
-[32m2025-08-06 22:08:33 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:08:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053939/motor-vehicles-motor-cycles/2013-ford-focus-titanium-lw-ii-automatic-hatchback[0m
-[35m2025-08-06 22:08:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712628/motor-vehicles-motor-cycles/2012-volkswagen-jetta-118tsi-comfortline-1b-automatic-sedan[0m
-[36m2025-08-06 22:08:33 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712565/motor-vehicles-motor-cycles/2008-toyota-hilux-sr-4x4-kun26r-turbo-diesel-manual-crew-cab-chassis[0m
-[36m2025-08-06 22:08:33 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  23%|##3       | 112/483 [03:31<11:13,  1.82s/link][32m2025-08-06 22:08:51 [INFO] Auction sold: https://www.grays.com/lot/0001-10349937/motor-vehicles-motor-cycles/2014-holden-cruze-equipe-jh-automatic-sedan for $1010.0[0m
-[32m2025-08-06 22:08:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:08:51 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712569/motor-vehicles-motor-cycles/2011-subaru-liberty-2-5i-b5-cvt-sedan[0m
-[35m2025-08-06 22:08:51 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053956/motor-vehicles-motor-cycles/2013-mercedes-benz-c200-be-w204-automatic-sedan[0m
-[32m2025-08-06 22:08:51 [INFO] Auction sold: https://www.grays.com/lot/0001-9062348/motor-vehicles-motor-cycles/2011-hyundai-i30-sx-fd-automatic-hatchback for $4700.0[0m
-[32m2025-08-06 22:08:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:08:51 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516234/motor-vehicles-motor-cycles/2012-jeep-grand-cherokee-limited-4x4-wk-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:08:51 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:08:51 [INFO] Auction sold: https://www.grays.com/lot/0001-21053887/motor-vehicles-motor-cycles/2020-ldv-t60-trailrider-2-turbo-diesel-automatic-dual-cab for $20000.0[0m
-[32m2025-08-06 22:08:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:08:51 [INFO] Auction sold: https://www.grays.com/lot/0001-21053843/motor-vehicles-motor-cycles/2009-ford-mondeo-titanium-mb-turbo-diesel-automatic-hatchback for $3200.0[0m
-[32m2025-08-06 22:08:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:08:51 [INFO] Auction sold: https://www.grays.com/lot/0001-21053790/motor-vehicles-motor-cycles/2013-hyundai-i30-active-gd-manual-hatchback for $3500.0[0m
-[32m2025-08-06 22:08:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  25%|##4       | 120/483 [03:49<11:48,  1.95s/link][32m2025-08-06 22:09:21 [INFO] Auction sold: https://www.grays.com/lot/0001-9062303/motor-vehicles-motor-cycles/2015-suzuki-swift-navigator-fz-automatic-hatchback for $4800.0[0m
-[32m2025-08-06 22:09:21 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:09:21 [INFO] Auction sold: https://www.grays.com/lot/0001-21053883/motor-vehicles-motor-cycles/2014-nissan-x-trail-tl-2wd-t32-turbo-diesel-cvt-wagon for $10700.0[0m
-[32m2025-08-06 22:09:21 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[31m2025-08-06 22:09:21 [ERROR] Failed to retrieve URL (will retry later): https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van[0m
-[32m2025-08-06 22:09:21 [INFO] Auction sold: https://www.grays.com/lot/0001-9062353/motor-vehicles-motor-cycles/2012-toyota-hilux-4x4-sr-kun26r-turbo-diesel-manual-crew-cab-chassis for $11400.0[0m
-[32m2025-08-06 22:09:21 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:09:21 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054055/motor-vehicles-motor-cycles/2016-audi-s3-2-0-tfsi-quattro-8v-automatic-sedan[0m
-[35m2025-08-06 22:09:21 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053950/motor-vehicles-motor-cycles/2007-toyota-aurion-trd-3500sl-gsv40r-automatic-sedan[0m
-[35m2025-08-06 22:09:21 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054009/motor-vehicles-motor-cycles/2008-toyota-rav-4-cv-aca33r-automatic-wagon[0m
-[35m2025-08-06 22:09:21 [INFO] Still auctioning: https://www.grays.com/lot/0001-21052666/motor-vehicles-motor-cycles/bmw-x5-3-0d-e70-turbo-diesel-automatic-wagon[0m
-Processing car links:  27%|##6       | 128/483 [04:18<14:34,  2.46s/link][36m2025-08-06 22:09:36 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062388/motor-vehicles-motor-cycles/2015-land-rover-range-rover-sport-3-0-sdv6-hse-l494-t-d-auto-wagon[0m
-[36m2025-08-06 22:09:36 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:09:36 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048557/motor-vehicles-motor-cycles/2015-mazda-bt-50-4x4-xtr-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:09:36 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:09:36 [INFO] Auction sold: https://www.grays.com/lot/0001-9062297/motor-vehicles-motor-cycles/2007-mercedes-benz-ml320cdi-w164-turbo-diesel-automatic-wagon for $2000.0[0m
-[32m2025-08-06 22:09:36 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:09:36 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054032/motor-vehicles-motor-cycles/2015-volkswagen-multivan-comfortline-tdi400-t5-auto-7-seats-people-mover[0m
-[35m2025-08-06 22:09:36 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054054/motor-vehicles-motor-cycles/2012-subaru-xv-2-0i-g4x-cvt-hatchback[0m
-[36m2025-08-06 22:09:36 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516248/motor-vehicles-motor-cycles/2010-mazda-cx-9-grand-touring-automatic-7-seats-wagon[0m
-[36m2025-08-06 22:09:37 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:09:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912134/motor-vehicles-motor-cycles/2016-bmw-x4-xdrive-35d-f26-turbo-diesel-automatic-8-speed-coupe[0m
-[32m2025-08-06 22:09:37 [INFO] Auction sold: https://www.grays.com/lot/0001-21053866/motor-vehicles-motor-cycles/2008-mazda-3-neo-bk-automatic-hatchback for $1409.0[0m
-[32m2025-08-06 22:09:37 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  28%|##8       | 136/483 [04:34<13:24,  2.32s/link][36m2025-08-06 22:09:50 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712606/motor-vehicles-motor-cycles/2016-hyundai-iload-tq-turbo-diesel-manual-van[0m
-[36m2025-08-06 22:09:50 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:09:50 [INFO] Auction sold: https://www.grays.com/lot/0001-60048553/motor-vehicles-motor-cycles/2013-nissan-pathfinder-st-r52-cvt-7-seats-wagon for $16010.0[0m
-[32m2025-08-06 22:09:50 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:09:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053988/motor-vehicles-motor-cycles/2013-toyota-prius-zvw30r-cvt-hatchback[0m
-[35m2025-08-06 22:09:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053980/motor-vehicles-motor-cycles/2009-ford-ranger-xl-4x2-pk-turbo-diesel-manual-cab-chassis[0m
-[32m2025-08-06 22:09:50 [INFO] Auction sold: https://www.grays.com/lot/0001-21053796/motor-vehicles-motor-cycles/2016-ford-ranger-wildtrak-4x4-px-ii-turbo-diesel-automatic-dual-cab for $10100.0[0m
-[32m2025-08-06 22:09:50 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:09:50 [INFO] Auction sold: https://www.grays.com/lot/0001-21053826/motor-vehicles-motor-cycles/2007-suzuki-sx4-gy-manual-hatchback for $309.0[0m
-[32m2025-08-06 22:09:50 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:09:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053964/motor-vehicles-motor-cycles/2005-mercedes-benz-m-class-w164-turbo-diesel-automatic-wagon[0m
-[35m2025-08-06 22:09:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054028/motor-vehicles-motor-cycles/2013-holden-cruze-cd-jh-automatic-sedan[0m
-Processing car links:  30%|##9       | 144/483 [04:47<11:56,  2.11s/link][35m2025-08-06 22:10:16 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054010/motor-vehicles-motor-cycles/lexus-is-220d-import-manual-sedan[0m
-[31m2025-08-06 22:10:16 [ERROR] Failed to retrieve URL (will retry later): https://www.grays.com/lot/0002-3033630/motor-vehicles-motor-cycles/2016-renault-master-mwb-mid-roof-turbo-diesel-manual-van[0m
-[36m2025-08-06 22:10:16 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062294/motor-vehicles-motor-cycles/2013-hyundai-iload-tq-manual-van[0m
-[36m2025-08-06 22:10:16 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:10:16 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053975/motor-vehicles-motor-cycles/2004-bmw-x5-4-4i-e53-automatic-wagon[0m
-[35m2025-08-06 22:10:16 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912103/motor-vehicles-motor-cycles/2008-toyota-camry-altise-acv40r-automatic-sedan-wovr-inspected[0m
-[32m2025-08-06 22:10:16 [INFO] Auction sold: https://www.grays.com/lot/0001-21053875/motor-vehicles-motor-cycles/2004-ford-falcon-xr6-ba-automatic-sedan for $3009.0[0m
-[32m2025-08-06 22:10:16 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:10:16 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062359/motor-vehicles-motor-cycles/2011-subaru-forester-x-s3-automatic-wagon[0m
-[36m2025-08-06 22:10:16 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:10:16 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912093/motor-vehicles-motor-cycles/1990-ford-kf-laser-ghia-automatic-sedan[0m
-[36m2025-08-06 22:10:16 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  31%|###1      | 152/483 [05:13<13:32,  2.46s/link][36m2025-08-06 22:10:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912080/motor-vehicles-motor-cycles/2014-mazda-cx-5-akera-ke-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:10:29 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:10:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053816/motor-vehicles-motor-cycles/2013-mazda-cx-5-grand-touring-ke-turbo-diesel-auto-wagon-wovr-inspected for $2950.0[0m
-[32m2025-08-06 22:10:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:10:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053876/motor-vehicles-motor-cycles/2007-holden-commodore-omega-ve-automatic-sedan for $2403.0[0m
-[32m2025-08-06 22:10:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:10:29 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053982/motor-vehicles-motor-cycles/2009-mazda-cx-9-luxury-automatic-7-seats-wagon[0m
-[36m2025-08-06 22:10:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912082/motor-vehicles-motor-cycles/2015-ford-mondeo-ambiente-md-turbo-diesel-automatic-sedan[0m
-[36m2025-08-06 22:10:29 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:10:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053863/motor-vehicles-motor-cycles/2013-ford-kuga-awd-trend-tf-turbo-diesel-automatic-wagon for $3200.0[0m
-[32m2025-08-06 22:10:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:10:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912096/motor-vehicles-motor-cycles/2005-toyota-camry-sportivo-mcv36r-automatic-sedan[0m
-[36m2025-08-06 22:10:29 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:10:29 [INFO] Still auctioning: https://www.grays.com/lot/0027-7059160/motor-vehicles-motor-cycles/2014-nissan-infinity-q50-gt-automatic-sedan[0m
-Processing car links:  33%|###3      | 160/483 [05:27<11:59,  2.23s/link][32m2025-08-06 22:10:51 [INFO] Auction sold: https://www.grays.com/lot/0001-21053788/motor-vehicles-motor-cycles/2013-fiat-500-lounge-manual-hatchback for $2900.0[0m
-[32m2025-08-06 22:10:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:10:51 [INFO] Auction sold: https://www.grays.com/lot/0001-9062305/motor-vehicles-motor-cycles/2005-toyota-hiace-lwb-trh201r-manual-van for $3509.0[0m
-[32m2025-08-06 22:10:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:10:51 [INFO] Auction sold: https://www.grays.com/lot/0001-50516298/motor-vehicles-motor-cycles/2017-audi-q7-3-0-tdi-quattro-4m-turbo-diesel-at-8-speed-7-seats-wagon for $23200.0[0m
-[32m2025-08-06 22:10:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:10:51 [INFO] Auction sold: https://www.grays.com/lot/0001-50712537/motor-vehicles-motor-cycles/2019-mazda-bt50-rwd-automatic-dual-cab-chassis for $8900.0[0m
-[32m2025-08-06 22:10:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:10:51 [INFO] Auction sold: https://www.grays.com/lot/0001-21053814/motor-vehicles-motor-cycles/2012-volvo-xc60-t5-automatic-wagon for $2500.0[0m
-[32m2025-08-06 22:10:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:10:51 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048546/motor-vehicles-motor-cycles/2018-holden-colorado-4x2-lt-rg-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:10:51 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:10:51 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053948/motor-vehicles-motor-cycles/2015-subaru-xv-2-0i-s-g4x-manual-hatchback[0m
-[32m2025-08-06 22:10:51 [INFO] Auction sold: https://www.grays.com/lot/0001-21053833/motor-vehicles-motor-cycles/2018-mitsubishi-triton-4x4-glx-mq-turbo-diesel-automatic-dual-cab for $7200.0[0m
-[32m2025-08-06 22:10:51 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  35%|###4      | 168/483 [05:49<12:33,  2.39s/link][35m2025-08-06 22:11:10 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062405/motor-vehicles-motor-cycles/2016-ford-ranger-xlt-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:11:10 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912083/motor-vehicles-motor-cycles/2009-honda-jazz-gli-ge-manual-hatchback[0m
-[36m2025-08-06 22:11:10 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:11:10 [INFO] Auction sold: https://www.grays.com/lot/0001-60048548/motor-vehicles-motor-cycles/2005-mitsubishi-express-wa-manual-van for $3200.0[0m
-[32m2025-08-06 22:11:10 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:11:10 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516250/motor-vehicles-motor-cycles/2013-nissan-dualis-2-st-4x2-j10-iii-cvt-7-seats-wagon[0m
-[36m2025-08-06 22:11:10 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:11:10 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053974/motor-vehicles-motor-cycles/2017-ford-mondeo-titanium-tdci-md-turbo-diesel-automatic-wagon[0m
-[35m2025-08-06 22:11:10 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054056/motor-vehicles-motor-cycles/2011-mazda-cx-7-classic-automatic-wagon[0m
-[35m2025-08-06 22:11:10 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912104/motor-vehicles-motor-cycles/2017-jaguar-f-pace-20d-prestige-turbo-diesel-automatic-8-speed-wagon[0m
-[36m2025-08-06 22:11:10 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10349934/motor-vehicles-motor-cycles/2016-renault-master-mwb-mid-roof-turbo-diesel-automatic-van[0m
-[36m2025-08-06 22:11:10 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  36%|###6      | 176/483 [06:08<12:12,  2.39s/link][32m2025-08-06 22:11:29 [INFO] Auction sold: https://www.grays.com/lot/0001-50516283/motor-vehicles-motor-cycles/2017-bmw-3-series-320i-f30-lci-automatic-8-speed-sedan for $14850.0[0m
-[32m2025-08-06 22:11:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:11:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053911/motor-vehicles-motor-cycles/2012-mazda-bt-50-4x4-gt-turbo-diesel-automatic-dual-cab for $8000.0[0m
-[32m2025-08-06 22:11:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:11:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053865/motor-vehicles-motor-cycles/2010-land-rover-freelander-2-hse-4x4-automatic-wagon for $3600.0[0m
-[32m2025-08-06 22:11:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:11:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516256/motor-vehicles-motor-cycles/2013-mercedes-benz-e-class-e200-w212-automatic-sedan[0m
-[36m2025-08-06 22:11:29 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:11:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048560/motor-vehicles-motor-cycles/2014-ford-territory-tx-sz-ii-turbo-diesel-automatic-7-seats-wagon[0m
-[36m2025-08-06 22:11:29 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:11:29 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054027/motor-vehicles-motor-cycles/2015-land-rover-range-rover-evoque-td4-150-se-turbo-diesel-9-auto-wagon[0m
-[35m2025-08-06 22:11:29 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349999/motor-vehicles-motor-cycles/1997-holden-rodeo-lx-manual-ute[0m
-[32m2025-08-06 22:11:29 [INFO] Auction sold: https://www.grays.com/lot/0001-50516291/motor-vehicles-motor-cycles/2015-mitsubishi-lancer-es-cj-cvt-sedan for $6000.0[0m
-[32m2025-08-06 22:11:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  38%|###8      | 184/483 [06:27<11:46,  2.36s/link][32m2025-08-06 22:11:44 [INFO] Auction sold: https://www.grays.com/lot/0001-50712619/motor-vehicles-motor-cycles/2010-kia-grand-carnival-si-vq-automatic-8-seats-people-mover for $1109.0[0m
-[32m2025-08-06 22:11:44 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:11:44 [INFO] Still auctioning: https://www.grays.com/lot/0117-7059153/motor-vehicles-motor-cycles/2017-toyota-landcruiser-single-cab-v8-turbo-diesel-ute[0m
-[32m2025-08-06 22:11:44 [INFO] Auction sold: https://www.grays.com/lot/0001-21053848/motor-vehicles-motor-cycles/2004-toyota-landcruiser-gxl-4x4-uzj100r-manual for $5900.0[0m
-[32m2025-08-06 22:11:44 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:11:44 [INFO] Auction sold: https://www.grays.com/lot/0001-21053795/motor-vehicles-motor-cycles/2015-bmw-x4-xdrive-35d-f26-turbo-diesel-automatic-8-speed-coupe for $12311.0[0m
-[32m2025-08-06 22:11:44 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:11:44 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912095/motor-vehicles-motor-cycles/2017-bmw-5-series-520d-gran-turismo-f07-lci-t-diesel-auto-8-speed-wagon[0m
-[36m2025-08-06 22:11:44 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:11:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062395/motor-vehicles-motor-cycles/2007-toyota-hilux-4x2-sr-kun16r-turbo-diesel-manual-dual-cab[0m
-[35m2025-08-06 22:11:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350002/motor-vehicles-motor-cycles/2021-toyota-rav4-gx-auto-2wd[0m
-[35m2025-08-06 22:11:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062320/motor-vehicles-motor-cycles/2010-toyota-kluger-kx-r-4x4-gsu45r-automatic-wagon[0m
-Processing car links:  40%|###9      | 192/483 [06:42<10:48,  2.23s/link][35m2025-08-06 22:12:00 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053969/motor-vehicles-motor-cycles/2003-honda-jazz-vti-s-gd-automatic-hatchback[0m
-[36m2025-08-06 22:12:00 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048558/motor-vehicles-motor-cycles/2014-hyundai-i30-active-gd-automatic-hatchback[0m
-[36m2025-08-06 22:12:00 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:12:00 [INFO] Auction sold: https://www.grays.com/lot/0001-9062347/motor-vehicles-motor-cycles/2007-hyundai-getz-1-4-tb-manual-hatchback for $2109.0[0m
-[32m2025-08-06 22:12:00 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:12:00 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516287/motor-vehicles-motor-cycles/2011-hyundai-i45-active-yf-automatic-sedan[0m
-[36m2025-08-06 22:12:00 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:12:00 [INFO] Auction sold: https://www.grays.com/lot/0001-50712560/motor-vehicles-motor-cycles/2007-nissan-navara-st-x-4x4-d40-turbo-diesel-automatic-dual-cab for $2801.0[0m
-[32m2025-08-06 22:12:00 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:12:00 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912089/motor-vehicles-motor-cycles/2002-holden-commodore-ss-vx-automatic-sedan[0m
-[36m2025-08-06 22:12:00 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:12:00 [INFO] Auction sold: https://www.grays.com/lot/0001-10912084/motor-vehicles-motor-cycles/2013-ford-kuga-awd-trend-tf-turbo-diesel-automatic-wagon for $800.0[0m
-[32m2025-08-06 22:12:00 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:12:00 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053335/motor-vehicles-motor-cycles/toyota-hilux-sr-4x4-kun26r-turbo-diesel-manual-dual-cab[0m
-[36m2025-08-06 22:12:00 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  41%|####1     | 200/483 [06:58<10:10,  2.16s/link][32m2025-08-06 22:12:15 [INFO] Auction sold: https://www.grays.com/lot/0001-21053889/motor-vehicles-motor-cycles/2006-mitsubishi-380-vrx-db-automatic-sedan for $609.0[0m
-[32m2025-08-06 22:12:15 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:12:15 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053973/motor-vehicles-motor-cycles/2013-holden-cruze-automatic-hatch[0m
-[32m2025-08-06 22:12:15 [INFO] Auction sold: https://www.grays.com/lot/0001-50516295/motor-vehicles-motor-cycles/2011-jeep-wrangler-sport-4x4-jk-manual-wagon for $8200.0[0m
-[32m2025-08-06 22:12:15 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:12:15 [INFO] Auction sold: https://www.grays.com/lot/0001-21053899/motor-vehicles-motor-cycles/2010-holden-commodore-sv6-ve-manual-sedan for $2312.0[0m
-[32m2025-08-06 22:12:15 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:12:15 [INFO] Auction sold: https://www.grays.com/lot/0001-50516278/motor-vehicles-motor-cycles/2010-toyota-landcruiser-prado-gxl-grj150r-automatic-7-seats-wagon for $9700.0[0m
-[32m2025-08-06 22:12:15 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:12:15 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516308/motor-vehicles-motor-cycles/2019-jaguar-f-pace-20d-chequered-flag-a-td-at-8-speed-wagon[0m
-[35m2025-08-06 22:12:15 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062396/motor-vehicles-motor-cycles/2010-nissan-navara-st-4x4-d40-turbo-diesel-manual-dual-cab[0m
-[32m2025-08-06 22:12:15 [INFO] Auction sold: https://www.grays.com/lot/0001-21053818/motor-vehicles-motor-cycles/2015-hyundai-i30-active-gd-automatic-hatchback for $4800.0[0m
-[32m2025-08-06 22:12:15 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  43%|####3     | 208/483 [07:13<09:27,  2.06s/link][36m2025-08-06 22:12:32 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062304/motor-vehicles-motor-cycles/2023-toyota-rav-4-gxl-hybrid-awd-axah54r-cvt-wagon-wovr-statutory[0m
-[36m2025-08-06 22:12:32 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:12:32 [INFO] Still auctioning: https://www.grays.com/lot/0029-7059160/motor-vehicles-motor-cycles/2007-mazda-bt50-manual-ute-wovr-inspected[0m
-[32m2025-08-06 22:12:32 [INFO] Auction sold: https://www.grays.com/lot/0001-9062356/motor-vehicles-motor-cycles/2010-mercedes-benz-ml-500-luxury-4x4-w164-automatic-wagon for $6175.0[0m
-[32m2025-08-06 22:12:32 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:12:32 [INFO] Auction sold: https://www.grays.com/lot/0001-9062366/motor-vehicles-motor-cycles/2010-holden-captiva-lx-awd-cg-automatic-7-seats-wagon for $609.0[0m
-[32m2025-08-06 22:12:32 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:12:32 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712611/motor-vehicles-motor-cycles/volkswagen-amarok-tdi420-highline-2h-turbo-diesel-auto-8-speed-dual-cab[0m
-[36m2025-08-06 22:12:32 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:12:32 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712637/motor-vehicles-motor-cycles/2020-toyota-hiace-lwb-gdh300r-turbo-diesel-manual-van[0m
-[36m2025-08-06 22:12:32 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048561/motor-vehicles-motor-cycles/2015-jeep-renegade-limited-bu-automatic-wagon[0m
-[36m2025-08-06 22:12:32 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:12:32 [INFO] Auction sold: https://www.grays.com/lot/0001-9062361/motor-vehicles-motor-cycles/2008-subaru-forester-xs-premium-s3-automatic-wagon-wovr-inspected for $1600.0[0m
-[32m2025-08-06 22:12:32 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  45%|####4     | 216/483 [07:30<09:16,  2.09s/link][32m2025-08-06 22:12:46 [INFO] Auction sold: https://www.grays.com/lot/0001-21053792/motor-vehicles-motor-cycles/2013-jeep-grand-cherokee-limited-wk-turbo-diesel-automatic-8-speed-wagon for $7452.0[0m
-[32m2025-08-06 22:12:46 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:12:46 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516238/motor-vehicles-motor-cycles/2011-volkswagen-tiguan-132-tsi-pacific-5n-automatic-wagon[0m
-[36m2025-08-06 22:12:46 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:12:46 [INFO] Auction sold: https://www.grays.com/lot/0001-10912079/motor-vehicles-motor-cycles/2010-subaru-liberty-2-5i-b5-cvt-wagon for $709.0[0m
-[32m2025-08-06 22:12:46 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:12:46 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053666/motor-vehicles-motor-cycles/2013-hyundai-veloster-fs-automatic-coupe[0m
-[36m2025-08-06 22:12:46 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:12:46 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912121/motor-vehicles-motor-cycles/2015-ford-ecosport-titanium-bk-automatic-wagon[0m
-[36m2025-08-06 22:12:46 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516269/motor-vehicles-motor-cycles/2009-bmw-3-20i-executive-e90-automatic-sedan[0m
-[36m2025-08-06 22:12:46 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:12:46 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712476/motor-vehicles-motor-cycles/2009-renault-h45-koleos-fwd-automatic-suv[0m
-[36m2025-08-06 22:12:46 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:12:46 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516244/motor-vehicles-motor-cycles/2015-nissan-pathfinder-st-4x4-r52-cvt-7-seats-wagon[0m
-[36m2025-08-06 22:12:46 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  46%|####6     | 224/483 [07:44<08:38,  2.00s/link][35m2025-08-06 22:13:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912127/motor-vehicles-motor-cycles/2002-mercedes-benz-e320-elegance-w211-automatic-sedan[0m
-[36m2025-08-06 22:13:01 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712620/motor-vehicles-motor-cycles/2014-foton-tunland-single-cab-4x2-turbo-diesel-manual-cab-chassis[0m
-[36m2025-08-06 22:13:01 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:13:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053851/motor-vehicles-motor-cycles/2013-nissan-micra-st-l-k13-automatic-hatchback[0m
-[35m2025-08-06 22:13:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053954/motor-vehicles-motor-cycles/2008-subaru-tribeca-3-6r-premium-b9-automatic-rwc-issued-21-07-2025[0m
-[35m2025-08-06 22:13:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062400/motor-vehicles-motor-cycles/2012-mitsubishi-triton-4x4-glx-mn-turbo-diesel-manual-dual-cab[0m
-[35m2025-08-06 22:13:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054044/motor-vehicles-motor-cycles/2016-mazda-cx-5-maxx-sport-ke-turbo-diesel-automatic-wagon[0m
-[32m2025-08-06 22:13:01 [INFO] Auction sold: https://www.grays.com/lot/0001-21053890/motor-vehicles-motor-cycles/2010-volkswagen-passat-cc-125tdi-3cc-turbo-diesel-automatic-coupe for $3100.0[0m
-[32m2025-08-06 22:13:01 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:13:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053968/motor-vehicles-motor-cycles/2013-mercedes-benz-s-class-s500-swb-w222-automatic-sedan[0m
-Processing car links:  48%|####8     | 232/483 [07:58<08:06,  1.94s/link][32m2025-08-06 22:13:18 [INFO] Auction sold: https://www.grays.com/lot/0001-21053888/motor-vehicles-motor-cycles/2019-holden-colorado-4x2-lx-rg-turbo-diesel-automatic-cab-chassis for $8001.0[0m
-[32m2025-08-06 22:13:18 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:13:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062385/motor-vehicles-motor-cycles/2019-holden-trax-ltz-tj-automatic-wagon[0m
-[36m2025-08-06 22:13:18 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516233/motor-vehicles-motor-cycles/2012-toyota-kluger-4x4-kx-r-gsu45r-automatic-7-seats-wagon[0m
-[36m2025-08-06 22:13:18 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:13:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062403/motor-vehicles-motor-cycles/2016-toyota-aurion-presara-gsv50r-automatic-sedan[0m
-[32m2025-08-06 22:13:18 [INFO] Auction sold: https://www.grays.com/lot/0001-21053850/motor-vehicles-motor-cycles/2000-volkswagen-transporter-2-5i-turbo-diesel-automatic-van for $2100.0[0m
-[32m2025-08-06 22:13:18 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:13:18 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712612/motor-vehicles-motor-cycles/2007-kia-carnival-ex-vq-automatic-8-seats-people-mover[0m
-[36m2025-08-06 22:13:18 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:13:18 [INFO] Auction sold: https://www.grays.com/lot/0001-21053789/motor-vehicles-motor-cycles/2012-hyundai-i30-active-gd-automatic-hatchback for $6500.0[0m
-[32m2025-08-06 22:13:18 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:13:18 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053855/motor-vehicles-motor-cycles/2016-ford-ranger-wildtrak-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:13:18 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  50%|####9     | 240/483 [08:16<08:07,  2.01s/link][32m2025-08-06 22:13:32 [INFO] Auction sold: https://www.grays.com/lot/0001-9062298/motor-vehicles-motor-cycles/2014-holden-captiva-5-lt-2wd-cg-ii-automatic-wagon for $809.0[0m
-[32m2025-08-06 22:13:32 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:13:32 [INFO] Auction sold: https://www.grays.com/lot/0001-21053831/motor-vehicles-motor-cycles/2007-audi-a6-allroad-quattro-c6-turbo-diesel-automatic-wagon for $3300.0[0m
-[32m2025-08-06 22:13:32 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:13:32 [INFO] Auction sold: https://www.grays.com/lot/0001-50516271/motor-vehicles-motor-cycles/2011-volkswagen-golf-118tsi-comfortline-a6-automatic-wagon for $4000.0[0m
-[32m2025-08-06 22:13:32 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:13:32 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053981/motor-vehicles-motor-cycles/2011-nissan-navara-rx-4x2-d40-turbo-diesel-automatic-dual-cab[0m
-[35m2025-08-06 22:13:32 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912130/motor-vehicles-motor-cycles/2012-skoda-superb-ambition-118tsi-3t-automatic-sedan[0m
-[36m2025-08-06 22:13:32 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516242/motor-vehicles-motor-cycles/2011-holden-cruze-cdx-jg-automatic-sedan[0m
-[36m2025-08-06 22:13:32 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:13:32 [INFO] Auction sold: https://www.grays.com/lot/0001-10349940/motor-vehicles-motor-cycles/2003-mitsubishi-delica-automatic-van for $1990.0[0m
-[32m2025-08-06 22:13:32 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:13:32 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712633/motor-vehicles-motor-cycles/2016-ford-ranger-xls-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
-Processing car links:  51%|#####1    | 248/483 [08:30<07:31,  1.92s/link][35m2025-08-06 22:13:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912109/motor-vehicles-motor-cycles/2013-ford-ranger-xl-4x4-px-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:13:48 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712609/motor-vehicles-motor-cycles/2016-isuzu-d-max-4x4-sx-hi-ride-turbo-diesel-automatic-crew-cab-chassis[0m
-[36m2025-08-06 22:13:48 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:13:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053976/motor-vehicles-motor-cycles/2016-hyundai-iload-tq-ii-turbo-diesel-automatic-van[0m
-[35m2025-08-06 22:13:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912105/motor-vehicles-motor-cycles/2015-holden-colorado-4x4-lx-rg-turbo-diesel-manual-dual-cab[0m
-[32m2025-08-06 22:13:48 [INFO] Auction sold: https://www.grays.com/lot/0001-9062293/motor-vehicles-motor-cycles/2011-nissan-navara-st-4x4-d40-turbo-diesel-manual-dual-cab for $4650.0[0m
-[32m2025-08-06 22:13:48 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:13:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053673/motor-vehicles-motor-cycles/2002-land-rover-range-rover-hse-automatic-wagon[0m
-[32m2025-08-06 22:13:48 [INFO] Auction sold: https://www.grays.com/lot/0001-9062331/motor-vehicles-motor-cycles/2012-volkswagen-jetta-118tsi-comfortline-1b-automatic-sedan for $2400.0[0m
-[32m2025-08-06 22:13:48 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:13:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516302/motor-vehicles-motor-cycles/2020-jeep-compass-night-eagle-bg-automatic-wagon[0m
-Processing car links:  53%|#####3    | 256/483 [08:46<07:25,  1.96s/link][32m2025-08-06 22:14:02 [INFO] Auction sold: https://www.grays.com/lot/0001-21053849/motor-vehicles-motor-cycles/2006-toyota-corolla-ascent-zze122r-manual-hatchback for $800.0[0m
-[32m2025-08-06 22:14:02 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:14:02 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053938/motor-vehicles-motor-cycles/2012-mercedes-benz-a-class-a200-cdi-be-w176-turbo-diesel-7-man-hatchback[0m
-[32m2025-08-06 22:14:02 [INFO] Auction sold: https://www.grays.com/lot/0001-9062346/motor-vehicles-motor-cycles/2011-mercedes-benz-viano-3-0-cdi-blue-eff-w639-t-d-auto-people-mover for $5200.0[0m
-[32m2025-08-06 22:14:02 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:14:02 [INFO] Auction sold: https://www.grays.com/lot/0001-50516261/motor-vehicles-motor-cycles/2008-holden-calais-v-ve-automatic-sedan for $2666.0[0m
-[32m2025-08-06 22:14:02 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:14:02 [INFO] Auction sold: https://www.grays.com/lot/0001-21053895/motor-vehicles-motor-cycles/2016-nissan-navara-4x2-st-np300-turbo-diesel-automatic-dual-cab for $7100.0[0m
-[32m2025-08-06 22:14:02 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:14:02 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912126/motor-vehicles-motor-cycles/1988-holden-camira-je-automatic-sedan[0m
-[36m2025-08-06 22:14:02 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516285/motor-vehicles-motor-cycles/2011-mini-ray-r56-lci-manual-hatchback[0m
-[36m2025-08-06 22:14:02 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:14:02 [INFO] Auction sold: https://www.grays.com/lot/0001-21053907/motor-vehicles-motor-cycles/2011-toyota-aurion-at-x-gsv40r-automatic-sedan for $2600.0[0m
-[32m2025-08-06 22:14:02 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  55%|#####4    | 264/483 [09:00<06:55,  1.90s/link][36m2025-08-06 22:14:19 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516180/motor-vehicles-motor-cycles/2009-mazda-cx-7-luxury-4x4-automatic-wagon[0m
-[36m2025-08-06 22:14:19 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:14:19 [INFO] Auction sold: https://www.grays.com/lot/0001-21053892/motor-vehicles-motor-cycles/2017-holden-astra-r-bk-automatic-hatchback for $4900.0[0m
-[32m2025-08-06 22:14:19 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:14:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516267/motor-vehicles-motor-cycles/2013-alfa-romeo-giulietta-manual-hatchback[0m
-[36m2025-08-06 22:14:19 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516241/motor-vehicles-motor-cycles/2015-nissan-pulsar-st-l-b17-cvt-sedan[0m
-[36m2025-08-06 22:14:19 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:14:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053944/motor-vehicles-motor-cycles/2014-fiat-scudo-turbo-diesel-manual-van[0m
-[35m2025-08-06 22:14:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053952/motor-vehicles-motor-cycles/2006-toyota-hilux-sr-4x4-kun26r-turbo-diesel-manual-dual-cab[0m
-[36m2025-08-06 22:14:19 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10349914/motor-vehicles-motor-cycles/2015-volkswagen-passat-132tsi-comfortline-b8-automatic-sedan[0m
-[36m2025-08-06 22:14:20 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:14:20 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10349901/motor-vehicles-motor-cycles/2020-nissan-370z-z34-auto-my20[0m
-[36m2025-08-06 22:14:20 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  56%|#####6    | 272/483 [09:17<06:57,  1.98s/link][32m2025-08-06 22:14:37 [INFO] Auction sold: https://www.grays.com/lot/0001-21053894/motor-vehicles-motor-cycles/2012-bmw-x5-xdrive-30d-e70-lci-turbo-diesel-automatic-8-speed-wagon for $7800.0[0m
-[32m2025-08-06 22:14:37 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:14:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912132/motor-vehicles-motor-cycles/2014-ford-focus-trend-lw-ii-automatic-hatchback[0m
-[36m2025-08-06 22:14:37 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053854/motor-vehicles-motor-cycles/2009-toyota-hilux-sr5-4x4-kun26r-turbo-diesel-dual-cab-wovr-inspected[0m
-[36m2025-08-06 22:14:37 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:14:37 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053853/motor-vehicles-motor-cycles/2014-jeep-grand-cherokee-laredo-4x4-wk-turbo-diesel-auto-8-speed-wagon[0m
-[36m2025-08-06 22:14:37 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:14:37 [INFO] Auction sold: https://www.grays.com/lot/0001-21053820/motor-vehicles-motor-cycles/2018-hyundai-i30-active-pd-automatic-hatchback-rwc-issued-15-07-2025 for $13700.0[0m
-[32m2025-08-06 22:14:37 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:14:37 [INFO] Auction sold: https://www.grays.com/lot/0001-50516255/motor-vehicles-motor-cycles/2008-toyota-rav-4-cv-4x4-manual-wagon for $4550.0[0m
-[32m2025-08-06 22:14:37 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:14:37 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712608/motor-vehicles-motor-cycles/2014-ford-ranger-wildtrak-4x4-px-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:14:37 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:14:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912133/motor-vehicles-motor-cycles/2013-holden-captiva-7-sx-2wd-cg-ii-automatic-7-seats-wagon[0m
-Processing car links:  58%|#####7    | 280/483 [09:34<06:52,  2.03s/link][35m2025-08-06 22:14:53 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053999/motor-vehicles-motor-cycles/2017-subaru-forester-2-0d-l-s4-turbo-diesel-cvt-wagon[0m
-[35m2025-08-06 22:14:53 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053962/motor-vehicles-motor-cycles/2012-jeep-grand-cherokee-srt-8-wk-automatic-wagon[0m
-[36m2025-08-06 22:14:53 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516249/motor-vehicles-motor-cycles/2018-volkswagen-golf-110tsi-trendline-a7-automatic-hatchback[0m
-[36m2025-08-06 22:14:53 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:14:53 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912118/motor-vehicles-motor-cycles/2010-ford-transit-mid-mwb-vm-turbo-diesel-manual-van[0m
-[35m2025-08-06 22:14:53 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053947/motor-vehicles-motor-cycles/2007-nissan-murano-ti-l-z50-cvt-wagon[0m
-[32m2025-08-06 22:14:53 [INFO] Auction sold: https://www.grays.com/lot/0001-9062306/motor-vehicles-motor-cycles/2009-renault-koleos-dynamique-turbo-diesel-automatic-wagon for $1311.0[0m
-[32m2025-08-06 22:14:53 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:14:53 [INFO] Auction sold: https://www.grays.com/lot/0001-9062300/motor-vehicles-motor-cycles/2014-mercedes-benz-cla-class-cla200-c117-7-auto-coupe-wovr-inspected for $14800.0[0m
-[32m2025-08-06 22:14:53 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:14:53 [INFO] Still auctioning: https://www.grays.com/lot/0114-7059153/motor-vehicles-motor-cycles/2012-toyota-prado-kdj150r-4wd-automatic-wagon[0m
-Processing car links:  60%|#####9    | 288/483 [09:50<06:32,  2.01s/link][36m2025-08-06 22:15:07 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712618/motor-vehicles-motor-cycles/2008-toyota-hiace-commuter-kdh223r-turbo-diesel-automatic-bus[0m
-[36m2025-08-06 22:15:07 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:15:07 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516276/motor-vehicles-motor-cycles/2011-volkswagen-golf-77tsi-a6-automatic-hatchback[0m
-[36m2025-08-06 22:15:07 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:15:07 [INFO] Auction sold: https://www.grays.com/lot/0001-21053909/motor-vehicles-motor-cycles/2006-toyota-camry-altise-acv40r-automatic-sedan for $2100.0[0m
-[32m2025-08-06 22:15:07 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:15:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054029/motor-vehicles-motor-cycles/2011-holden-cruze-cd-jh-turbo-diesel-automatic-sedan[0m
-[35m2025-08-06 22:15:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053568/motor-vehicles-motor-cycles/2011-ford-territory-titanium-4x4-sz-turbo-diesel-automatic-7-seats-wagon[0m
-[32m2025-08-06 22:15:07 [INFO] Auction sold: https://www.grays.com/lot/0001-50516181/motor-vehicles-motor-cycles/2014-hyundai-i30-automatic-hatchback for $3600.0[0m
-[32m2025-08-06 22:15:07 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:15:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516304/motor-vehicles-motor-cycles/2015-nissan-x-trail-st-l-awd-t32-cvt-wagon[0m
-[35m2025-08-06 22:15:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349950/motor-vehicles-motor-cycles/2009-holden-colorado-lx-4x4-rc-turbo-diesel-manual-dual-cab[0m
-Processing car links:  61%|######1   | 296/483 [10:04<06:02,  1.94s/link][32m2025-08-06 22:15:23 [INFO] Auction sold: https://www.grays.com/lot/0001-9062367/motor-vehicles-motor-cycles/2016-ford-ranger-wildtrak-4x4-px-ii-turbo-diesel-automatic-dual-cab for $14100.0[0m
-[32m2025-08-06 22:15:23 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:15:23 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912077/motor-vehicles-motor-cycles/2015-holden-barina-tm-manual-hatchback[0m
-[36m2025-08-06 22:15:23 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:15:23 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062392/motor-vehicles-motor-cycles/2007-honda-civic-vti-l-8th-gen-manual-sedan[0m
-[32m2025-08-06 22:15:23 [INFO] Auction sold: https://www.grays.com/lot/0001-9062349/motor-vehicles-motor-cycles/2011-nissan-navara-st-r-4x4-d22-turbo-diesel-manual-dual-cab for $4500.0[0m
-[32m2025-08-06 22:15:23 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:15:23 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062343/motor-vehicles-motor-cycles/2009-mazda-cx-7-luxury-4x4-automatic-wagon[0m
-[36m2025-08-06 22:15:23 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:15:23 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053997/motor-vehicles-motor-cycles/2013-nissan-pulsar-st-c12-cvt-hatchback[0m
-[36m2025-08-06 22:15:23 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048556/motor-vehicles-motor-cycles/2016-toyota-rav-4-fwd-gx-zsa42r-cvt-wagon[0m
-[36m2025-08-06 22:15:23 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:15:23 [INFO] Auction sold: https://www.grays.com/lot/0001-60048563/motor-vehicles-motor-cycles/2014-nissan-pathfinder-st-l-hybrid-r52-cvt-7-seats-wagon for $6200.0[0m
-[32m2025-08-06 22:15:23 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  63%|######2   | 304/483 [10:21<05:54,  1.98s/link][32m2025-08-06 22:15:40 [INFO] Auction sold: https://www.grays.com/lot/0001-21053914/motor-vehicles-motor-cycles/2014-peugeot-308-allure-turbo-diesel-automatic-hatchback for $4900.0[0m
-[32m2025-08-06 22:15:40 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:15:40 [INFO] Still auctioning: https://www.grays.com/lot/0030-7059160/motor-vehicles-motor-cycles/2011-ford-ranger-rwd-manual-dual-cab-ute[0m
-[35m2025-08-06 22:15:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054011/motor-vehicles-motor-cycles/2012-mazda-cx-5-maxx-sport-ke-turbo-diesel-automatic-wagon[0m
-[32m2025-08-06 22:15:40 [INFO] Auction sold: https://www.grays.com/lot/0001-50712623/motor-vehicles-motor-cycles/2017-mazda-bt-50-4x2-xt-turbo-diesel-manual-crew-cab-chassis for $11000.0[0m
-[32m2025-08-06 22:15:40 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:15:40 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912088/motor-vehicles-motor-cycles/2015-ford-ranger-xl-4x4-px-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:15:40 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:15:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349916/motor-vehicles-motor-cycles/1978-suzuki-lj50-manual-wagon[0m
-[35m2025-08-06 22:15:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912106/motor-vehicles-motor-cycles/2007-toyota-landcruiser-workmate-4x4-vdj79r-t-diesel-manual-cab-chassis[0m
-[32m2025-08-06 22:15:40 [INFO] Auction sold: https://www.grays.com/lot/0001-21053867/motor-vehicles-motor-cycles/2011-land-rover-range-rover-vogue-tdv8-auto-biography-t-d-auto-8-speed for $13200.0[0m
-[32m2025-08-06 22:15:40 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  65%|######4   | 312/483 [10:38<05:46,  2.02s/link][32m2025-08-06 22:16:09 [INFO] Auction sold: https://www.grays.com/lot/0001-21053488/motor-vehicles-motor-cycles/volkswagen-amarok-tdi400-2h-turbo-diesel-manual-cab-chassis for $6200.0[0m
-[32m2025-08-06 22:16:09 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:16:09 [INFO] Auction sold: https://www.grays.com/lot/0001-50516277/motor-vehicles-motor-cycles/2014-jeep-wrangler-unlimited-overland-jk-automatic-wagon for $12705.0[0m
-[32m2025-08-06 22:16:09 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:16:09 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054038/motor-vehicles-motor-cycles/2010-nissan-dualis-2-ti-4x2-j10-ii-cvt-7-seats-wagon[0m
-[32m2025-08-06 22:16:09 [INFO] Auction sold: https://www.grays.com/lot/0001-21053908/motor-vehicles-motor-cycles/2003-toyota-corolla-ascent-zze123r-automatic-wagon for $1009.0[0m
-[32m2025-08-06 22:16:09 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:16:09 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516301/motor-vehicles-motor-cycles/2007-toyota-landcruiser-prado-grande-4x4-kdj120r-td-at-8-seats-wagon[0m
-[32m2025-08-06 22:16:09 [INFO] Auction sold: https://www.grays.com/lot/0001-21053897/motor-vehicles-motor-cycles/2010-holden-commodore-omega-ve-automatic-sedan for $1409.0[0m
-[32m2025-08-06 22:16:09 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:16:09 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053945/motor-vehicles-motor-cycles/2017-volkswagen-polo-66tsi-trendline-6r-auto-hatchback[0m
-[31m2025-08-06 22:16:09 [ERROR] Failed to retrieve URL (will retry later): https://www.grays.com/lot/0117-3033596/motor-vehicles-motor-cycles/1992-honda-dio-sr-motorcycle[0m
-Processing car links:  66%|######6   | 320/483 [11:07<06:45,  2.49s/link][35m2025-08-06 22:16:29 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912108/motor-vehicles-motor-cycles/2017-holden-captiva-7-active-le-2wd-cg-ii-automatic-7-seats-wagon[0m
-[36m2025-08-06 22:16:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712625/motor-vehicles-motor-cycles/2017-ford-ranger-xl-4x4-px-ii-turbo-diesel-manual-extra-cab[0m
-[36m2025-08-06 22:16:29 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:16:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053794/motor-vehicles-motor-cycles/2015-ford-territory-titanium-rwd-sz-ii-turbo-diesel-auto-7-seats-wagon for $7900.0[0m
-[32m2025-08-06 22:16:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:16:29 [INFO] Auction sold: https://www.grays.com/lot/0001-21053815/motor-vehicles-motor-cycles/2007-subaru-forester-xs-manual-wagon for $1309.0[0m
-[32m2025-08-06 22:16:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:16:29 [INFO] Auction sold: https://www.grays.com/lot/0001-50516288/motor-vehicles-motor-cycles/2016-land-rover-range-rover-evoque-td4-150-se-turbo-diesel-9-auto-wagon for $12559.0[0m
-[32m2025-08-06 22:16:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:16:29 [INFO] Auction sold: https://www.grays.com/lot/0001-60048564/motor-vehicles-motor-cycles/2009-holden-captiva-sx-4x4-cg-turbo-diesel-automatic-7-seats-wagon for $609.0[0m
-[32m2025-08-06 22:16:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:16:29 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912085/motor-vehicles-motor-cycles/2013-mitsubishi-pajero-glx-lwb-4x4-nw-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:16:29 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:16:29 [INFO] Auction sold: https://www.grays.com/lot/0001-9062350/motor-vehicles-motor-cycles/2009-audi-q5-3-0-tdi-quattro-8r-turbo-diesel-automatic-wagon for $5009.0[0m
-[32m2025-08-06 22:16:29 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  68%|######7   | 328/483 [11:27<06:26,  2.50s/link][35m2025-08-06 22:16:46 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053967/motor-vehicles-motor-cycles/2013-jeep-grand-cherokee-laredo-wk-automatic-8-speed-wagon[0m
-[32m2025-08-06 22:16:46 [INFO] Auction sold: https://www.grays.com/lot/0001-9062354/motor-vehicles-motor-cycles/2008-holden-sportwagon-omega-ve-automatic-wagon for $1900.0[0m
-[32m2025-08-06 22:16:46 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:16:46 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053759/motor-vehicles-motor-cycles/2020-great-wall-steed-4x2-manual-dual-cab[0m
-[36m2025-08-06 22:16:46 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:16:46 [INFO] Still auctioning: https://www.grays.com/lot/0001-20027132/motor-vehicles-motor-cycles/2016-audi-q5-2-0-tfsi-quattro-8r-automatic-8-speed-wagon[0m
-[32m2025-08-06 22:16:46 [INFO] Auction sold: https://www.grays.com/lot/0001-9062358/motor-vehicles-motor-cycles/2016-ford-ranger-xl-4x4-px-ii-turbo-diesel-automatic-dual-cab for $5000.0[0m
-[32m2025-08-06 22:16:46 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:16:46 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516254/motor-vehicles-motor-cycles/2014-kia-sportage-si-sl-ii-manual-wagon[0m
-[36m2025-08-06 22:16:46 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:16:46 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054031/motor-vehicles-motor-cycles/2001-toyota-hilux-manual-dual-cab[0m
-[36m2025-08-06 22:16:46 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912075/motor-vehicles-motor-cycles/2017-mitsubishi-outlander-ls-awd-safety-pack-zk-t-diesel-auto-7-seats-wagon[0m
-[36m2025-08-06 22:16:46 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  70%|######9   | 336/483 [11:43<05:48,  2.37s/link][32m2025-08-06 22:16:58 [INFO] Auction sold: https://www.grays.com/lot/0001-50516273/motor-vehicles-motor-cycles/2014-holden-trax-ls-tj-automatic-wagon for $2300.0[0m
-[32m2025-08-06 22:16:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:16:58 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912099/motor-vehicles-motor-cycles/2013-subaru-impreza-2-0i-awd-g4-cvt-sedan[0m
-[36m2025-08-06 22:16:58 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:16:58 [INFO] Auction sold: https://www.grays.com/lot/0001-21053819/motor-vehicles-motor-cycles/nissan-maxima-st-a33-automatic-sedan for $609.0[0m
-[32m2025-08-06 22:16:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:16:58 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516247/motor-vehicles-motor-cycles/2015-jeep-cherokee-blackhawk-4x4-kl-9-auto-wagon[0m
-[36m2025-08-06 22:16:58 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:16:58 [INFO] Auction sold: https://www.grays.com/lot/0001-21053901/motor-vehicles-motor-cycles/2011-great-wall-v240-4x2-manual-dual-cab for $1609.0[0m
-[32m2025-08-06 22:16:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:16:58 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712630/motor-vehicles-motor-cycles/2015-mitsubishi-triton-glx-4x4-mn-turbo-diesel-automatic-dual-cab[0m
-[32m2025-08-06 22:16:58 [INFO] Auction sold: https://www.grays.com/lot/0001-21053913/motor-vehicles-motor-cycles/2013-holden-captiva-7-sx-2wd-cg-ii-automatic-7-seats-wagon for $1600.0[0m
-[32m2025-08-06 22:16:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:16:58 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053993/motor-vehicles-motor-cycles/1999-holden-commodore-equipe-vt-automatic-sedan[0m
-Processing car links:  71%|#######1  | 344/483 [11:56<04:56,  2.13s/link][35m2025-08-06 22:17:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053811/motor-vehicles-motor-cycles/2019-ldv-g10-executive-7-seat-automatic-7-seats-people-mover[0m
-[35m2025-08-06 22:17:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054042/motor-vehicles-motor-cycles/2016-hyundai-i30-active-gd-automatic-hatchback[0m
-[36m2025-08-06 22:17:11 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048574/motor-vehicles-motor-cycles/2010-subaru-liberty-2-5i-premium-b5-cvt-sedan[0m
-[36m2025-08-06 22:17:11 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:17:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912114/motor-vehicles-motor-cycles/2002-jaguar-x-type-se-x400-automatic-sedan[0m
-[36m2025-08-06 22:17:11 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516236/motor-vehicles-motor-cycles/2016-bmw-x5-xdrive-30d-f15-turbo-diesel-automatic-8-speed-wagon[0m
-[36m2025-08-06 22:17:11 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:17:11 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062368/motor-vehicles-motor-cycles/2020-isuzu-d-max-4x4-sx-turbo-diesel-automatic-crew-cab-chassis[0m
-[36m2025-08-06 22:17:11 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:17:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062406/motor-vehicles-motor-cycles/2017-mazda-bt-50-4x4-xt-turbo-diesel-automatic-dual-cab[0m
-[32m2025-08-06 22:17:11 [INFO] Auction sold: https://www.grays.com/lot/0001-9062352/motor-vehicles-motor-cycles/2014-jaguar-xf-2-0-premium-luxury-automatic-8-speed-sedan for $12100.0[0m
-[32m2025-08-06 22:17:11 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  73%|#######2  | 352/483 [12:09<04:19,  1.98s/link][32m2025-08-06 22:17:26 [INFO] Auction sold: https://www.grays.com/lot/0001-21053832/motor-vehicles-motor-cycles/2013-volkswagen-golf-90tsi-a7-automatic-hatchback for $4400.0[0m
-[32m2025-08-06 22:17:26 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:17:26 [INFO] Auction sold: https://www.grays.com/lot/0001-50516292/motor-vehicles-motor-cycles/2000-toyota-landcruiser-prado-gxl-4x4-kzj95r-turbo-diesel-automatic-wagon for $4000.0[0m
-[32m2025-08-06 22:17:26 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:17:26 [INFO] Auction sold: https://www.grays.com/lot/0001-21053903/motor-vehicles-motor-cycles/2012-mazda-2-neo-de-manual-hatchback for $2009.0[0m
-[32m2025-08-06 22:17:26 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:17:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054043/motor-vehicles-motor-cycles/2018-mazda-cx-5-maxx-sport-kf-automatic-wagon[0m
-[36m2025-08-06 22:17:26 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712613/motor-vehicles-motor-cycles/2019-holden-colorado-4x4-lx-rg-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:17:26 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:17:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062394/motor-vehicles-motor-cycles/2004-nissan-navara-manual-ute[0m
-[35m2025-08-06 22:17:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054008/motor-vehicles-motor-cycles/2016-ford-focus-trend-lz-automatic-hatchback-rwc-issued-19-7-25[0m
-[32m2025-08-06 22:17:26 [INFO] Auction sold: https://www.grays.com/lot/0001-21053910/motor-vehicles-motor-cycles/2010-ford-ranger-xl-4x2-pk-turbo-diesel-manual-extra-cab for $3400.0[0m
-[32m2025-08-06 22:17:26 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  75%|#######4  | 360/483 [12:24<04:00,  1.95s/link][35m2025-08-06 22:17:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053946/motor-vehicles-motor-cycles/toyota-majesta-automatic-sedan-rwc-issued-30-07-2025[0m
-[36m2025-08-06 22:17:43 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912094/motor-vehicles-motor-cycles/2015-mazda-bt-50-4x4-xtr-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:17:43 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:17:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062399/motor-vehicles-motor-cycles/2007-nissan-navara-st-x-4x4-d40-manual-dual-cab[0m
-[36m2025-08-06 22:17:43 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516182/motor-vehicles-motor-cycles/2012-hyundai-santa-fe-highlander-crdi-4x4-dm-t-d-auto-7-seats-wagon[0m
-[36m2025-08-06 22:17:43 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:17:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912102/motor-vehicles-motor-cycles/2012-nissan-navara-4x4-st-d40-turbo-diesel-manual-dual-cab[0m
-[32m2025-08-06 22:17:43 [INFO] Auction sold: https://www.grays.com/lot/0001-50516265/motor-vehicles-motor-cycles/2004-honda-mdx-automatic-7-seats-wagon for $1609.0[0m
-[32m2025-08-06 22:17:43 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:17:43 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053921/motor-vehicles-motor-cycles/2015-mitsubishi-asx-ls-2wd-xb-automatic-wagon-rwc-issued-8-7-25[0m
-[36m2025-08-06 22:17:43 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:17:43 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062340/motor-vehicles-motor-cycles/2010-subaru-tribeca-3-6r-premium-b9-automatic-7-seats-wagon[0m
-[36m2025-08-06 22:17:43 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  76%|#######6  | 368/483 [12:41<03:48,  1.99s/link][35m2025-08-06 22:17:58 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054012/motor-vehicles-motor-cycles/2020-mazda-cx-3-akari-dk-auto-wagon-rwc-issued-24-7-25-wovr-inspected[0m
-[32m2025-08-06 22:17:58 [INFO] Auction sold: https://www.grays.com/lot/0001-21053813/motor-vehicles-motor-cycles/2013-alfa-romeo-giulietta-progression-automatic-hatchback for $1900.0[0m
-[32m2025-08-06 22:17:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:17:58 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053966/motor-vehicles-motor-cycles/2011-audi-a6-2-0-tfsi-c7-cvt-sedan[0m
-[35m2025-08-06 22:17:58 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912116/motor-vehicles-motor-cycles/2002-toyota-landcruiser-prado-gxl-4x4-kzj95r-t-d-manual-8-seats-wagon[0m
-[32m2025-08-06 22:17:58 [INFO] Auction sold: https://www.grays.com/lot/0001-9062302/motor-vehicles-motor-cycles/2007-volkswagen-eos-2-0-tdi-1f-turbo-diesel-manual-convertible for $1600.0[0m
-[32m2025-08-06 22:17:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:17:58 [INFO] Auction sold: https://www.grays.com/lot/0001-9062299/motor-vehicles-motor-cycles/2002-toyota-echo-sportivo-ncp13r-manual-hatchback for $509.0[0m
-[32m2025-08-06 22:17:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:17:58 [INFO] Auction sold: https://www.grays.com/lot/0001-21053904/motor-vehicles-motor-cycles/2014-mercedes-benz-c-class-be-c204-automatic-coupe for $12300.0[0m
-[32m2025-08-06 22:17:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:17:58 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516279/motor-vehicles-motor-cycles/2015-land-rover-discovery-sport-td4-hse-t-d-9-auto-wovr-inspected[0m
-[36m2025-08-06 22:17:58 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  78%|#######7  | 376/483 [12:55<03:27,  1.94s/link][36m2025-08-06 22:18:12 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516232/motor-vehicles-motor-cycles/2017-peugeot-2008-active-automatic-wagon[0m
-[36m2025-08-06 22:18:12 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:18:12 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054005/motor-vehicles-motor-cycles/2013-ford-mondeo-zetec-tdci-mc-turbo-diesel-automatic-hatchback[0m
-[35m2025-08-06 22:18:12 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062408/motor-vehicles-motor-cycles/2011-ford-focus-trend-lw-automatic-hatchback[0m
-[35m2025-08-06 22:18:12 [INFO] Still auctioning: https://www.grays.com/lot/0037-7059160/motor-vehicles-motor-cycles/ford-falcon-rtv-rwd-automatic-ute[0m
-[36m2025-08-06 22:18:12 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062362/motor-vehicles-motor-cycles/2013-ford-ranger-xl-4x4-px-turbo-diesel-automatic-crew-cab-chassis[0m
-[36m2025-08-06 22:18:12 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:18:12 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062364/motor-vehicles-motor-cycles/2014-volkswagen-amarok-tdi420-trendline-2h-t-d-auto-dual-cab[0m
-[36m2025-08-06 22:18:12 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:18:12 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048555/motor-vehicles-motor-cycles/2017-mitsubishi-asx-ls-2wd-xc-cvt-wagon[0m
-[36m2025-08-06 22:18:12 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:18:12 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053845/motor-vehicles-motor-cycles/2013-nissan-murano-st-z51-cvt-wagon[0m
-[36m2025-08-06 22:18:12 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  80%|#######9  | 384/483 [13:09<03:06,  1.88s/link][32m2025-08-06 22:18:28 [INFO] Auction sold: https://www.grays.com/lot/0001-50712622/motor-vehicles-motor-cycles/volkswagen-crafter-35-mwb-tdi300-runner-turbo-diesel-manual-van for $2100.0[0m
-[32m2025-08-06 22:18:28 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:18:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912124/motor-vehicles-motor-cycles/2016-hyundai-tucson-active-fwd-tl-automatic-wagon[0m
-[35m2025-08-06 22:18:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712631/motor-vehicles-motor-cycles/2016-ford-ranger-xl-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
-[35m2025-08-06 22:18:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912112/motor-vehicles-motor-cycles/2012-volkswagen-tiguan-132-tsi-pacific-5n-automatic-wagon[0m
-[32m2025-08-06 22:18:28 [INFO] Auction sold: https://www.grays.com/lot/0001-9062351/motor-vehicles-motor-cycles/2012-volvo-s60-t4-automatic-sedan for $5500.0[0m
-[32m2025-08-06 22:18:28 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:18:28 [INFO] Auction sold: https://www.grays.com/lot/0001-21053793/motor-vehicles-motor-cycles/2015-jeep-wrangler-unlimited-x-jk-automatic-wagon for $16500.0[0m
-[32m2025-08-06 22:18:28 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:18:28 [INFO] Still auctioning: https://www.grays.com/lot/0028-7059160/motor-vehicles-motor-cycles/2013-chrysler-300c-lx-automatic-sedan[0m
-[32m2025-08-06 22:18:28 [INFO] Auction sold: https://www.grays.com/lot/0001-9062296/motor-vehicles-motor-cycles/2013-ford-fiesta-trend-wz-automatic-hatchback for $1509.0[0m
-[32m2025-08-06 22:18:28 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  81%|########1 | 392/483 [13:25<02:54,  1.92s/link][36m2025-08-06 22:18:41 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516274/motor-vehicles-motor-cycles/2017-mazda-6-touring-gl-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:18:41 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:18:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054003/motor-vehicles-motor-cycles/2015-mazda-cx-5-grand-touring-ke-turbo-diesel-automatic-wagon[0m
-[35m2025-08-06 22:18:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054040/motor-vehicles-motor-cycles/2012-mazda-cx-5-grand-touring-ke-turbo-diesel-automatic-wagon[0m
-[32m2025-08-06 22:18:41 [INFO] Auction sold: https://www.grays.com/lot/0001-50516260/motor-vehicles-motor-cycles/2016-holden-cruze-sri-z-series-jh-automatic-sedan for $509.0[0m
-[32m2025-08-06 22:18:41 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:18:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712585/motor-vehicles-motor-cycles/tesla-3-automatic-sedan[0m
-[36m2025-08-06 22:18:41 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912076/motor-vehicles-motor-cycles/2013-peugeot-308-limited-edition-automatic-hatchback[0m
-[36m2025-08-06 22:18:41 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:18:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053979/motor-vehicles-motor-cycles/2003-holden-commodore-executive-vy-automatic-sedan[0m
-[32m2025-08-06 22:18:41 [INFO] Auction sold: https://www.grays.com/lot/0001-50516296/motor-vehicles-motor-cycles/2006-mercedes-benz-s350-w221-automatic-sedan for $6800.0[0m
-[32m2025-08-06 22:18:41 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  83%|########2 | 400/483 [13:39<02:33,  1.85s/link][36m2025-08-06 22:18:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712571/motor-vehicles-motor-cycles/2000-toyota-prado-4wd-automatic-wagon[0m
-[36m2025-08-06 22:18:56 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:18:56 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912117/motor-vehicles-motor-cycles/1999-toyota-landcruiser-rv-4x4-fzj105r-automatic-wagon[0m
-[35m2025-08-06 22:18:56 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053941/motor-vehicles-motor-cycles/2003-mazda-323-astina-bj-automatic-hatchback[0m
-[36m2025-08-06 22:18:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912098/motor-vehicles-motor-cycles/2013-volvo-v40-t4-kinetic-automatic-wagon[0m
-[36m2025-08-06 22:18:56 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:18:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516253/motor-vehicles-motor-cycles/2011-subaru-forester-x-s3-automatic-wagon[0m
-[36m2025-08-06 22:18:56 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:18:56 [INFO] Auction sold: https://www.grays.com/lot/0001-10912100/motor-vehicles-motor-cycles/2009-subaru-liberty-2-5i-gt-premium-b5-automatic-sedan for $7400.0[0m
-[32m2025-08-06 22:18:56 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:18:56 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349909/motor-vehicles-motor-cycles/2013-ford-xr6-rwd-automatic-cab-chassis[0m
-[35m2025-08-06 22:18:56 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912135/motor-vehicles-motor-cycles/2009-land-rover-discovery-3-0-tdv6-se-series-4-t-diesel-auto-7-seats-wagon[0m
-Processing car links:  84%|########4 | 408/483 [13:53<02:18,  1.84s/link][32m2025-08-06 22:19:11 [INFO] Auction sold: https://www.grays.com/lot/0001-21053686/motor-vehicles-motor-cycles/2013-renault-master-mwb-turbo-diesel-manual-van for $6599.0[0m
-[32m2025-08-06 22:19:11 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:19:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516303/motor-vehicles-motor-cycles/2013-toyota-rav-4-fwd-gx-zsa42r-manual-wagon[0m
-[35m2025-08-06 22:19:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912128/motor-vehicles-motor-cycles/2017-subaru-forester-2-0d-l-s4-turbo-diesel-cvt-wagon[0m
-[32m2025-08-06 22:19:11 [INFO] Auction sold: https://www.grays.com/lot/0001-50712610/motor-vehicles-motor-cycles/2016-toyota-hilux-sr-4x4-gun126r-turbo-diesel-manual-crew-cab-chassis for $29000.0[0m
-[32m2025-08-06 22:19:11 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:19:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054020/motor-vehicles-motor-cycles/2004-honda-accord-euro-7th-gen-automatic-sedan[0m
-[32m2025-08-06 22:19:11 [INFO] Auction sold: https://www.grays.com/lot/0001-50516181/motor-vehicles-motor-cycles/2014-hyundai-i30-trophy-gd-automatic-hatchback for $3600.0[0m
-[32m2025-08-06 22:19:11 [INFO] Sold vehicle already recorded (duplicate VIN-date).[0m
-[35m2025-08-06 22:19:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516258/motor-vehicles-motor-cycles/2011-toyota-landcruiser-prado-vx-4x4-kdj150r-turbo-diesel-auto-7-seats[0m
-[35m2025-08-06 22:19:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053991/motor-vehicles-motor-cycles/2009-nissan-navara-st-x-4x4-double-cab-d40-turbo-diesel-manual-dual-cab[0m
-Processing car links:  86%|########6 | 416/483 [14:09<02:05,  1.87s/link][35m2025-08-06 22:19:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062401/motor-vehicles-motor-cycles/2014-ford-falcon-fg-ii-automatic-ute[0m
-[32m2025-08-06 22:19:26 [INFO] Auction sold: https://www.grays.com/lot/0001-21053905/motor-vehicles-motor-cycles/2013-hyundai-i20-active-pb-automatic-hatchback for $3109.0[0m
-[32m2025-08-06 22:19:26 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:19:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062393/motor-vehicles-motor-cycles/2014-ford-focus-ambiente-lw-ii-automatic-hatchback[0m
-[36m2025-08-06 22:19:26 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712616/motor-vehicles-motor-cycles/2016-volkswagen-caddy-tsi220-maxi-comfort-auto-people-mover-wheelchair-lift[0m
-[36m2025-08-06 22:19:26 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:19:26 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516299/motor-vehicles-motor-cycles/2015-subaru-outback-3-6r-premium-b6a-cvt-wagon[0m
-[36m2025-08-06 22:19:26 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:19:26 [INFO] Auction sold: https://www.grays.com/lot/0001-21053916/motor-vehicles-motor-cycles/2009-mitsubishi-outlander-xls-zh-cvt-wagon for $2409.0[0m
-[32m2025-08-06 22:19:26 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:19:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054051/motor-vehicles-motor-cycles/2005-mazda-tribute-limited-sport-automatic-wagon[0m
-[32m2025-08-06 22:19:26 [INFO] Auction sold: https://www.grays.com/lot/0001-50712605/motor-vehicles-motor-cycles/2010-hyundai-imax-tq-automatic-8-seats-people-mover for $1500.0[0m
-[32m2025-08-06 22:19:26 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  88%|########7 | 424/483 [14:24<01:50,  1.87s/link][32m2025-08-06 22:19:39 [INFO] Auction sold: https://www.grays.com/lot/0001-21053927/motor-vehicles-motor-cycles/2011-mercedes-benz-sprinter-transfer-316-cdi-turbo-diesel-auto-12-seats-bus for $23601.0[0m
-[32m2025-08-06 22:19:39 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:19:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053972/motor-vehicles-motor-cycles/2013-alfa-romeo-giulietta-progression-t-d-auto-hatchback[0m
-[32m2025-08-06 22:19:39 [INFO] Auction sold: https://www.grays.com/lot/0001-21053748/motor-vehicles-motor-cycles/2006-mercedes-benz-c180-kompressor-classic-w203-automatic-sedan for $1009.0[0m
-[32m2025-08-06 22:19:39 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:19:39 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516300/motor-vehicles-motor-cycles/2015-subaru-xv-2-0i-l-g4x-manual-hatchback[0m
-[36m2025-08-06 22:19:39 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:19:39 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712615/motor-vehicles-motor-cycles/2013-ford-ranger-xl-4x4-px-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:19:39 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:19:39 [INFO] Auction sold: https://www.grays.com/lot/0001-21053784/motor-vehicles-motor-cycles/2012-chrysler-300-c-lx-turbo-diesel-automatic-sedan for $9088.0[0m
-[32m2025-08-06 22:19:39 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:19:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912107/motor-vehicles-motor-cycles/2018-mazda-bt-50-4x4-xtr-turbo-diesel-automatic-dual-cab[0m
-[35m2025-08-06 22:19:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712629/motor-vehicles-motor-cycles/2020-mitsubishi-triton-4x4-glx-adas-club-ca-mr-turbo-diesel-at-extra-cab[0m
-Processing car links:  89%|########9 | 432/483 [14:36<01:30,  1.77s/link][35m2025-08-06 22:19:53 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712397/motor-vehicles-motor-cycles/2013-audi-a4-allroad-quattro-b8-turbo-diesel-auto-wagon-wovr-inspected[0m
-[36m2025-08-06 22:19:53 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712546/motor-vehicles-motor-cycles/2006-mercedes-benz-s-class-s500-w221-automatic-sedan[0m
-[36m2025-08-06 22:19:53 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:19:53 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912110/motor-vehicles-motor-cycles/2011-mazda-cx-7-luxury-sports-4x4-automatic-wagon[0m
-[32m2025-08-06 22:19:53 [INFO] Auction sold: https://www.grays.com/lot/0001-9062355/motor-vehicles-motor-cycles/2005-ford-territory-tx-sx-automatic-7-seats-wagon for $1609.0[0m
-[32m2025-08-06 22:19:53 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:19:53 [INFO] Auction sold: https://www.grays.com/lot/0001-9062382/motor-vehicles-motor-cycles/2010-holden-commodore-ss-ve-manual-sedan for $4800.0[0m
-[32m2025-08-06 22:19:53 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:19:53 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053994/motor-vehicles-motor-cycles/2011-ford-focus-lx-lv-automatic-sedan-wovr-inspected[0m
-[36m2025-08-06 22:19:53 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516239/motor-vehicles-motor-cycles/2013-ford-territory-tx-rwd-sz-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:19:53 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:19:53 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053995/motor-vehicles-motor-cycles/2012-holden-captiva-7-sx-2wd-cg-ii-automatic-wagon[0m
-Processing car links:  91%|#########1| 440/483 [14:50<01:16,  1.77s/link][35m2025-08-06 22:20:07 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053951/motor-vehicles-motor-cycles/2006-bmw-3-series-20i-e90-automatic-sedan[0m
-[36m2025-08-06 22:20:07 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912086/motor-vehicles-motor-cycles/2011-volkswagen-golf-gti-a6-manual-hatchback[0m
-[36m2025-08-06 22:20:08 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:20:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912115/motor-vehicles-motor-cycles/2010-holden-sportwagon-sv6-ve-automatic-wagon[0m
-[32m2025-08-06 22:20:08 [INFO] Auction sold: https://www.grays.com/lot/0001-21053924/motor-vehicles-motor-cycles/2006-hyundai-sonata-elite-nf-automatic-sedan for $409.0[0m
-[32m2025-08-06 22:20:08 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:20:08 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048559/motor-vehicles-motor-cycles/2016-isuzu-mu-x-4x2-ls-t-turbo-diesel-automatic-7-seats-wagon[0m
-[36m2025-08-06 22:20:08 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:20:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048581/motor-vehicles-motor-cycles/2008-hummer-h2-dreamtech-4wd-automatic-limousine[0m
-[36m2025-08-06 22:20:08 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048545/motor-vehicles-motor-cycles/2014-ford-ranger-xl-4x2-hi-rider-px-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:20:08 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:20:08 [INFO] Auction sold: https://www.grays.com/lot/0001-21053861/motor-vehicles-motor-cycles/2010-volkswagen-tiguan-125-tsi-5n-automatic-wagon for $2600.0[0m
-[32m2025-08-06 22:20:08 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  93%|#########2| 448/483 [15:05<01:02,  1.80s/link][36m2025-08-06 22:20:27 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062342/motor-vehicles-motor-cycles/2012-holden-colorado-4x4-ltz-rg-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:20:27 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:20:27 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10349827/motor-vehicles-motor-cycles/2024-chery-tiggo-8-pro-max-ultimate-awd-automatic-7-seats-suv[0m
-[36m2025-08-06 22:20:27 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:20:27 [INFO] Auction sold: https://www.grays.com/lot/0001-21053852/motor-vehicles-motor-cycles/2015-toyota-corolla-ascent-zre172r-automatic-sedan for $6700.0[0m
-[32m2025-08-06 22:20:27 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:20:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053731/motor-vehicles-motor-cycles/2001-toyota-landcruiser-prado-prado-gxl-4x4-vzj95r-auto-8-seats-wagon[0m
-[35m2025-08-06 22:20:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053977/motor-vehicles-motor-cycles/2015-volkswagen-tiguan-155tsi-r-line-5n-automatic-wagon[0m
-[32m2025-08-06 22:20:27 [INFO] Auction sold: https://www.grays.com/lot/0001-50516294/motor-vehicles-motor-cycles/2012-mercedes-benz-c250-cdi-c204-turbo-diesel-automatic-coupe for $7700.0[0m
-[32m2025-08-06 22:20:27 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:20:27 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062360/motor-vehicles-motor-cycles/2010-ford-falcon-fg-automatic-ute[0m
-[36m2025-08-06 22:20:27 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:20:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054066/motor-vehicles-motor-cycles/2014-mazda-cx-5-akera-ke-turbo-diesel-automatic-wagon[0m
-Processing car links:  94%|#########4| 456/483 [15:24<00:53,  1.97s/link][32m2025-08-06 22:20:41 [INFO] Auction sold: https://www.grays.com/lot/0001-21053665/motor-vehicles-motor-cycles/2008-suzuki-apv-manual-van for $4000.0[0m
-[32m2025-08-06 22:20:41 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:20:41 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516270/motor-vehicles-motor-cycles/2015-renault-clio-authentique-manual-hatchback[0m
-[36m2025-08-06 22:20:41 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:20:41 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712626/motor-vehicles-motor-cycles/2006-toyota-hiace-commuter-kdh223r-turbo-diesel-manual-12-seats-bus[0m
-[36m2025-08-06 22:20:41 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:20:41 [INFO] Auction sold: https://www.grays.com/lot/0001-21053922/motor-vehicles-motor-cycles/1997-toyota-landcrusier-prado-import-automatic-4x4-turbo-diesel for $3940.0[0m
-[32m2025-08-06 22:20:41 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:20:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349938/motor-vehicles-motor-cycles/2023-suzuki-carry-import-manual-truck[0m
-[36m2025-08-06 22:20:41 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912069/motor-vehicles-motor-cycles/1990-nissan-pulsar-q-automatic-hatch[0m
-[36m2025-08-06 22:20:41 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:20:41 [INFO] Auction sold: https://www.grays.com/lot/0001-50712423/motor-vehicles-motor-cycles/2013-toyota-hilux-workmate-tgn16r-automatic-cab-chassis for $9200.0[0m
-[32m2025-08-06 22:20:41 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[32m2025-08-06 22:20:41 [INFO] Auction sold: https://www.grays.com/lot/0001-21053868/motor-vehicles-motor-cycles/2015-mazda-3-maxx-bm-automatic-sedan for $10700.0[0m
-[32m2025-08-06 22:20:41 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links:  96%|#########6| 464/483 [15:39<00:36,  1.93s/link][36m2025-08-06 22:20:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048568/motor-vehicles-motor-cycles/2001-ford-courier-gl-pe-manual-cab-chassis[0m
-[36m2025-08-06 22:20:56 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:20:56 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912113/motor-vehicles-motor-cycles/2010-hyundai-ix35-active-fwd-lm-automatic-wagon[0m
-[35m2025-08-06 22:20:56 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053986/motor-vehicles-motor-cycles/2007-bmw-3-23i-e90-automatic-sedan[0m
-[36m2025-08-06 22:20:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516246/motor-vehicles-motor-cycles/2012-subaru-impreza-wrx-g3-manual-sedan[0m
-[36m2025-08-06 22:20:56 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:20:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048549/motor-vehicles-motor-cycles/2020-toyota-hilux-workmate-tgn121r-manual-cab-chassis[0m
-[36m2025-08-06 22:20:56 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:20:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062363/motor-vehicles-motor-cycles/2016-ford-ranger-wildtrak-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
-[36m2025-08-06 22:20:56 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:20:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516251/motor-vehicles-motor-cycles/2010-holden-commodore-ss-v-ve-manual-sedan[0m
-[36m2025-08-06 22:20:56 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:20:56 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516240/motor-vehicles-motor-cycles/bmw-1-35i-sport-e82-automatic-coupe[0m
-[36m2025-08-06 22:20:56 [INFO] Added new referred vehicle to referred_df.[0m
-Processing car links:  98%|#########7| 472/483 [15:53<00:20,  1.90s/link][32m2025-08-06 22:21:12 [INFO] Auction sold: https://www.grays.com/lot/0001-10349935/motor-vehicles-motor-cycles/2011-ford-fiesta-zetec-wt-automatic-hatchback-pinkslip-issued-18-7-2025 for $1550.0[0m
-[32m2025-08-06 22:21:12 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[35m2025-08-06 22:21:12 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053990/motor-vehicles-motor-cycles/2014-mazda-cx-5-akera-ke-turbo-diesel-automatic-wagon[0m
-[35m2025-08-06 22:21:12 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912123/motor-vehicles-motor-cycles/2003-nissan-skyline-v35-import-automatic-coupe[0m
-[32m2025-08-06 22:21:12 [INFO] Auction sold: https://www.grays.com/lot/0001-21053791/motor-vehicles-motor-cycles/2013-jeep-patriot-limited-mk-automatic-wagon for $2109.0[0m
-[32m2025-08-06 22:21:12 [INFO] Added new sold vehicle to sold_cars_df.[0m
-[36m2025-08-06 22:21:12 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912078/motor-vehicles-motor-cycles/2008-hyundai-imax-tq-turbo-diesel-manual-8-seats-people-mover[0m
-[36m2025-08-06 22:21:12 [INFO] Added new referred vehicle to referred_df.[0m
-[36m2025-08-06 22:21:12 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-10912068/motor-vehicles-motor-cycles/2016-hyundai-accent-active-rb-cvt-hatchback[0m
-[36m2025-08-06 22:21:12 [INFO] Added new referred vehicle to referred_df.[0m
-[35m2025-08-06 22:21:12 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053984/motor-vehicles-motor-cycles/2013-mazda-6-atenza-gj-turbo-diesel-automatic-sedan[0m
-[35m2025-08-06 22:21:12 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054015/motor-vehicles-motor-cycles/2015-honda-odyssey-vti-l-cvt-7-seats-people-mover[0m
-Processing car links:  99%|#########9| 480/483 [16:10<00:05,  1.93s/link][35m2025-08-06 22:21:23 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053886/motor-vehicles-motor-cycles/volkswagen-passat-cc-125tdi-3cc-turbo-diesel-automatic-coupe[0m
-[36m2025-08-06 22:21:23 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-60048554/motor-vehicles-motor-cycles/2012-jeep-grand-cherokee-laredo-4x4-wk-turbo-diesel-automatic-wagon[0m
-[36m2025-08-06 22:21:23 [INFO] Added new referred vehicle to referred_df.[0m
-[32m2025-08-06 22:21:23 [INFO] Auction sold: https://www.grays.com/lot/0001-9062239/motor-vehicles-motor-cycles/2014-jeep-cherokee-limited-4x4-kl-9-auto-wagon for $6600.0[0m
-[32m2025-08-06 22:21:23 [INFO] Added new sold vehicle to sold_cars_df.[0m
-Processing car links: 100%|##########| 483/483 [16:21<00:00,  2.19s/link]Processing car links: 100%|##########| 483/483 [16:23<00:00,  2.04s/link]
+Waiting 3.49 seconds before next page...
+Scraping page 3...
+Waiting 4.19 seconds before next page...
+Scraping page 4...
+Waiting 5.06 seconds before next page...
+Scraping page 5...
+No more links found. Stopping at page 5.
+Found 184 new car links.
+CSV updated with 372 total links.
+Processing car links:   0%|          | 0/372 [00:00<?, ?link/s][35m2025-08-07 22:05:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048619/motor-vehicles-motor-cycles/2010-subaru-liberty-2-5i-premium-b5-cvt-sedan[0m
+[35m2025-08-07 22:05:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912129/motor-vehicles-motor-cycles/volkswagen-amarok-tdi550-highline-2h-turbo-diesel-auto-8-speed-dual-cab[0m
+[36m2025-08-07 22:05:14 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-21053743/motor-vehicles-motor-cycles/2013-mercedes-benz-sprinter-316-cdi-mwb-l-roof-turbo-diesel-automatic-van[0m
+[36m2025-08-07 22:05:14 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:05:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054143/motor-vehicles-motor-cycles/2015-honda-odyssey-vti-l-cvt-7-seats-people-mover[0m
+[35m2025-08-07 22:05:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912140/motor-vehicles-motor-cycles/2016-nissan-qashqai-ti-j11-ii-cvt-wagon[0m
+[35m2025-08-07 22:05:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349994/motor-vehicles-motor-cycles/2015-mazda-cx-3-maxx-dk-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:05:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054211/motor-vehicles-motor-cycles/2009-holden-commodore-omega-ve-automatic-wagon[0m
+[35m2025-08-07 22:05:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054026/motor-vehicles-motor-cycles/2006-toyota-corolla-ascent-seca-zze123r-automatic-hatchback[0m
+Processing car links:   2%|2         | 8/372 [00:17<12:55,  2.13s/link][32m2025-08-07 22:05:27 [INFO] Auction sold: https://www.grays.com/lot/0114-7059153/motor-vehicles-motor-cycles/2012-toyota-prado-kdj150r-4wd-automatic-wagon for $14111.0[0m
+[32m2025-08-07 22:05:27 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[32m2025-08-07 22:05:27 [INFO] Auction sold: https://www.grays.com/lot/0001-21053851/motor-vehicles-motor-cycles/2013-nissan-micra-st-l-k13-automatic-hatchback for $4900.0[0m
+[32m2025-08-07 22:05:27 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:05:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054100/motor-vehicles-motor-cycles/2006-ford-territory-ghia-4x4-sy-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:05:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053959/motor-vehicles-motor-cycles/2012-bmw-1-series-120i-e88-automatic-convertible[0m
+[35m2025-08-07 22:05:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054036/motor-vehicles-motor-cycles/2010-bmw-1-18i-e87-automatic-hatchback[0m
+[35m2025-08-07 22:05:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062548/motor-vehicles-motor-cycles/2009-holden-commodore-ss-ve-automatic-ute[0m
+[35m2025-08-07 22:05:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912143/motor-vehicles-motor-cycles/2013-mitsubishi-lancer-es-cj-manual-sedan[0m
+[35m2025-08-07 22:05:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053947/motor-vehicles-motor-cycles/2007-nissan-murano-ti-l-z50-cvt-wagon[0m
+Processing car links:   4%|4         | 16/372 [00:29<10:47,  1.82s/link][35m2025-08-07 22:05:49 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054103/motor-vehicles-motor-cycles/2014-mercedes-benz-m-class-w166-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:05:49 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053986/motor-vehicles-motor-cycles/2007-bmw-3-23i-e90-automatic-sedan[0m
+[32m2025-08-07 22:05:49 [INFO] Auction sold: https://www.grays.com/lot/0001-50516267/motor-vehicles-motor-cycles/2013-alfa-romeo-giulietta-manual-hatchback for $2001.0[0m
+[32m2025-08-07 22:05:49 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:05:49 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054069/motor-vehicles-motor-cycles/2009-toyota-yaris-yr-ncp90r-automatic-hatchback[0m
+[32m2025-08-07 22:05:49 [INFO] Auction sold: https://www.grays.com/lot/0001-21053963/motor-vehicles-motor-cycles/2007-bmw-x5-3-0d-e70-turbo-diesel-automatic-wagon for $4000.0[0m
+[32m2025-08-07 22:05:49 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:05:49 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054102/motor-vehicles-motor-cycles/2019-toyota-hilux-4x2-workmate-hi-ride-gun135r-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:05:49 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054236/motor-vehicles-motor-cycles/2011-ssangyong-korando-spr-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:05:49 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054048/motor-vehicles-motor-cycles/2014-audi-s3-2-0-tfsi-quattro-8v-automatic-hatchback[0m
+Processing car links:   6%|6         | 24/372 [00:51<12:51,  2.22s/link][35m2025-08-07 22:06:04 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912123/motor-vehicles-motor-cycles/2003-nissan-skyline-v35-import-automatic-coupe[0m
+[35m2025-08-07 22:06:04 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054078/motor-vehicles-motor-cycles/2000-mercedes-benz-s430-w220-automatic-sedan[0m
+[36m2025-08-07 22:06:04 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516304/motor-vehicles-motor-cycles/2015-nissan-x-trail-st-l-awd-t32-cvt-wagon[0m
+[36m2025-08-07 22:06:04 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:06:04 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054038/motor-vehicles-motor-cycles/2010-nissan-dualis-2-ti-4x2-j10-ii-cvt-7-seats-wagon[0m
+[35m2025-08-07 22:06:04 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712397/motor-vehicles-motor-cycles/2013-audi-a4-allroad-quattro-b8-turbo-diesel-auto-wagon-wovr-inspected[0m
+[35m2025-08-07 22:06:04 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054095/motor-vehicles-motor-cycles/2012-audi-q7-3-0-tdi-quattro-turbo-diesel-automatic-8-speed-7-seats-wagon[0m
+[35m2025-08-07 22:06:04 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048590/motor-vehicles-motor-cycles/2012-volvo-xc90-d5-r-design-turbo-diesel-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:06:04 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053940/motor-vehicles-motor-cycles/1989-toyota-landcruiser-fj62-manual-wagon[0m
+Processing car links:   9%|8         | 32/372 [01:06<11:47,  2.08s/link][35m2025-08-07 22:06:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712569/motor-vehicles-motor-cycles/2011-subaru-liberty-2-5i-b5-cvt-sedan[0m
+[35m2025-08-07 22:06:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053880/motor-vehicles-motor-cycles/2012-jeep-grand-cherokee-overland-4x4-wk-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:06:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054118/motor-vehicles-motor-cycles/2009-bmw-3-20i-executive-e90-automatic-sedan[0m
+[35m2025-08-07 22:06:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054238/motor-vehicles-motor-cycles/2010-volkswagen-golf-gti-a6-automatic-hatchback[0m
+[35m2025-08-07 22:06:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054233/motor-vehicles-motor-cycles/2015-ford-kuga-ambiente-fwd-tf-ii-automatic-wagon[0m
+[35m2025-08-07 22:06:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350016/motor-vehicles-motor-cycles/2018-kia-cerato-s-yd-automatic-hatchback[0m
+[35m2025-08-07 22:06:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054055/motor-vehicles-motor-cycles/2016-audi-s3-2-0-tfsi-quattro-8v-automatic-sedan[0m
+[35m2025-08-07 22:06:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048588/motor-vehicles-motor-cycles/2014-volvo-xc60-t5-luxury-automatic-8-speed-wagon[0m
+Processing car links:  11%|#         | 40/372 [01:20<10:53,  1.97s/link][35m2025-08-07 22:06:31 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054098/motor-vehicles-motor-cycles/2014-toyota-camry-altise-asv50r-automatic-sedan[0m
+[35m2025-08-07 22:06:31 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912126/motor-vehicles-motor-cycles/1988-holden-camira-je-automatic-sedan[0m
+[35m2025-08-07 22:06:31 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053977/motor-vehicles-motor-cycles/2015-volkswagen-tiguan-155tsi-r-line-5n-automatic-wagon[0m
+[35m2025-08-07 22:06:31 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062551/motor-vehicles-motor-cycles/2010-bmw-s1000-motorcycle[0m
+[35m2025-08-07 22:06:31 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912139/motor-vehicles-motor-cycles/2014-holden-ute-sv6-storm-spec-ed-vf-manual-ute[0m
+[35m2025-08-07 22:06:31 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054169/motor-vehicles-motor-cycles/2021-skoda-karoq-110tsi-nu-automatic-8-speed-wagon[0m
+[35m2025-08-07 22:06:31 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054133/motor-vehicles-motor-cycles/2009-jaguar-xf-5-0-v8-luxury-automatic-sedan[0m
+[32m2025-08-07 22:06:31 [INFO] Auction sold: https://www.grays.com/lot/0001-21053964/motor-vehicles-motor-cycles/2005-mercedes-benz-m-class-w164-turbo-diesel-automatic-wagon for $5012.0[0m
+[32m2025-08-07 22:06:31 [INFO] Added new sold vehicle to sold_cars_df.[0m
+Processing car links:  13%|#2        | 48/372 [01:33<09:56,  1.84s/link][32m2025-08-07 22:06:47 [INFO] Auction sold: https://www.grays.com/lot/0001-9062397/motor-vehicles-motor-cycles/2008-nissan-navara-st-r-4x4-d22-turbo-diesel-manual-dual-cab for $2410.0[0m
+[32m2025-08-07 22:06:47 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:06:47 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054106/motor-vehicles-motor-cycles/2010-hyundai-i20-active-pb-automatic-hatchback[0m
+[35m2025-08-07 22:06:47 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912137/motor-vehicles-motor-cycles/2020-ldv-d90-4wd-executive-turbo-diesel-automatic-8-speed-7-seats-wagon[0m
+[35m2025-08-07 22:06:47 [INFO] Still auctioning: https://www.grays.com/lot/0030-7059160/motor-vehicles-motor-cycles/2011-ford-ranger-rwd-manual-dual-cab-ute[0m
+[32m2025-08-07 22:06:47 [INFO] Auction sold: https://www.grays.com/lot/0001-21053568/motor-vehicles-motor-cycles/2011-ford-territory-titanium-4x4-sz-turbo-diesel-automatic-7-seats-wagon for $6000.0[0m
+[32m2025-08-07 22:06:47 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:06:47 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054051/motor-vehicles-motor-cycles/2005-mazda-tribute-limited-sport-automatic-wagon[0m
+[35m2025-08-07 22:06:47 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712641/motor-vehicles-motor-cycles/2015-ford-ranger-xlt-4wd-automatic-extra-cab[0m
+[32m2025-08-07 22:06:47 [INFO] Auction sold: https://www.grays.com/lot/0001-9062393/motor-vehicles-motor-cycles/2014-ford-focus-ambiente-lw-ii-automatic-hatchback for $5300.0[0m
+[32m2025-08-07 22:06:47 [INFO] Added new sold vehicle to sold_cars_df.[0m
+Processing car links:  15%|#5        | 56/372 [01:49<09:58,  1.89s/link][35m2025-08-07 22:07:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912133/motor-vehicles-motor-cycles/2013-holden-captiva-7-sx-2wd-cg-ii-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:07:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054163/motor-vehicles-motor-cycles/2022-hyundai-tucson-fwd-nx4-automatic-wagon[0m
+[35m2025-08-07 22:07:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054024/motor-vehicles-motor-cycles/2010-audi-a4-2-0-tfsi-quattro-b8-automatic-sedan[0m
+[35m2025-08-07 22:07:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054005/motor-vehicles-motor-cycles/2013-ford-mondeo-zetec-tdci-mc-turbo-diesel-automatic-hatchback[0m
+[35m2025-08-07 22:07:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053920/motor-vehicles-motor-cycles/2022-hyundai-tucson-highlander-n-line-awd-nx4-td-auto-8-speed-wagon[0m
+[35m2025-08-07 22:07:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053995/motor-vehicles-motor-cycles/2012-holden-captiva-7-sx-2wd-cg-ii-automatic-wagon[0m
+[35m2025-08-07 22:07:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053951/motor-vehicles-motor-cycles/2006-bmw-3-series-20i-e90-automatic-sedan[0m
+[35m2025-08-07 22:07:01 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912138/motor-vehicles-motor-cycles/2009-mazda-3-sp25-bl-manual-sedan[0m
+Processing car links:  17%|#7        | 64/372 [02:03<09:33,  1.86s/link][35m2025-08-07 22:07:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912131/motor-vehicles-motor-cycles/2017-subaru-outback-2-0d-premium-b6a-turbo-diesel-manual-wagon[0m
+[35m2025-08-07 22:07:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054063/motor-vehicles-motor-cycles/2012-volkswagen-golf-118tsi-comfortline-a6-manual-hatchback[0m
+[32m2025-08-07 22:07:20 [INFO] Auction sold: https://www.grays.com/lot/0001-9062385/motor-vehicles-motor-cycles/2019-holden-trax-ltz-tj-automatic-wagon for $4909.0[0m
+[32m2025-08-07 22:07:20 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:07:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048594/motor-vehicles-motor-cycles/2021-kia-carnival-s-ka4-automatic-8-speed-8-seats-people-mover[0m
+[35m2025-08-07 22:07:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048585/motor-vehicles-motor-cycles/2014-holden-captiva-7-ls-2wd-cg-ii-t-d-auto-7-seats-wagon-wovr-inspected[0m
+[35m2025-08-07 22:07:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054054/motor-vehicles-motor-cycles/2012-subaru-xv-2-0i-g4x-cvt-hatchback[0m
+[35m2025-08-07 22:07:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054212/motor-vehicles-motor-cycles/2009-mitsubishi-lancer-es-sportback-cj-manual-hatchback[0m
+[35m2025-08-07 22:07:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712645/motor-vehicles-motor-cycles/2013-mazda-cx-5-maxx-sport-ke-turbo-diesel-automatic-wagon[0m
+Processing car links:  19%|#9        | 72/372 [02:22<10:05,  2.02s/link][35m2025-08-07 22:07:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350014/motor-vehicles-motor-cycles/2021-nissan-x-trail-st-fwd-t32-cvt-wagon[0m
+[35m2025-08-07 22:07:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054218/motor-vehicles-motor-cycles/2016-land-rover-discovery-sport-td4-150-se-turbo-diesel-9-auto-wagon[0m
+[35m2025-08-07 22:07:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712585/motor-vehicles-motor-cycles/tesla-3-automatic-sedan[0m
+[35m2025-08-07 22:07:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912130/motor-vehicles-motor-cycles/2012-skoda-superb-ambition-118tsi-3t-automatic-sedan[0m
+[35m2025-08-07 22:07:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053982/motor-vehicles-motor-cycles/2009-mazda-cx-9-luxury-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:07:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054134/motor-vehicles-motor-cycles/volkswagen-tiguan-130tdi-5n-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:07:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054112/motor-vehicles-motor-cycles/2008-bmw-3-20i-executive-e90-automatic-sedan[0m
+[35m2025-08-07 22:07:37 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054120/motor-vehicles-motor-cycles/2013-holden-calais-v-vf-automatic-sedan[0m
+Processing car links:  22%|##1       | 80/372 [02:39<09:57,  2.05s/link][35m2025-08-07 22:07:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912107/motor-vehicles-motor-cycles/2018-mazda-bt-50-4x4-xtr-turbo-diesel-automatic-dual-cab[0m
+[35m2025-08-07 22:07:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912122/motor-vehicles-motor-cycles/2012-subaru-xv-2-0i-s-g4x-manual-hatchback[0m
+[35m2025-08-07 22:07:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912119/motor-vehicles-motor-cycles/1997-saab-900-se-2-0t-talladega-automatic-convertible[0m
+[35m2025-08-07 22:07:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054012/motor-vehicles-motor-cycles/2020-mazda-cx-3-akari-dk-auto-wagon-rwc-issued-24-7-25-wovr-inspected[0m
+[35m2025-08-07 22:07:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349909/motor-vehicles-motor-cycles/2013-ford-xr6-rwd-automatic-cab-chassis[0m
+[35m2025-08-07 22:07:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054008/motor-vehicles-motor-cycles/2016-ford-focus-trend-lz-automatic-hatchback-rwc-issued-19-7-25[0m
+[35m2025-08-07 22:07:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054108/motor-vehicles-motor-cycles/2019-skoda-octavia-110tsi-ne-automatic-wagon[0m
+[32m2025-08-07 22:07:55 [INFO] Auction sold: https://www.grays.com/lot/0001-9062408/motor-vehicles-motor-cycles/2011-ford-focus-trend-lw-automatic-hatchback for $1609.0[0m
+[32m2025-08-07 22:07:55 [INFO] Added new sold vehicle to sold_cars_df.[0m
+Processing car links:  24%|##3       | 88/372 [02:57<09:58,  2.11s/link][35m2025-08-07 22:08:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912113/motor-vehicles-motor-cycles/2010-hyundai-ix35-active-fwd-lm-automatic-wagon[0m
+[35m2025-08-07 22:08:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054060/motor-vehicles-motor-cycles/2008-hyundai-tucson-city-sx-automatic-wagon[0m
+[35m2025-08-07 22:08:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048572/motor-vehicles-motor-cycles/2016-bmw-x3-xdrive-20i-f25-automatic-8-speed-wagon[0m
+[35m2025-08-07 22:08:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912125/motor-vehicles-motor-cycles/2010-mercedes-benz-sprinter-316-cdi-mwb-l-roof-t-diesel-manual-8-seats-van[0m
+[35m2025-08-07 22:08:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912116/motor-vehicles-motor-cycles/2002-toyota-landcruiser-prado-gxl-4x4-kzj95r-t-d-manual-8-seats-wagon[0m
+[35m2025-08-07 22:08:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053994/motor-vehicles-motor-cycles/2011-ford-focus-lx-lv-automatic-sedan-wovr-inspected[0m
+[35m2025-08-07 22:08:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-21052666/motor-vehicles-motor-cycles/bmw-x5-3-0d-e70-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:08:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349999/motor-vehicles-motor-cycles/1997-holden-rodeo-lx-manual-ute[0m
+Processing car links:  26%|##5       | 96/372 [03:15<09:51,  2.14s/link][35m2025-08-07 22:08:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912127/motor-vehicles-motor-cycles/2002-mercedes-benz-e320-elegance-w211-automatic-sedan[0m
+[35m2025-08-07 22:08:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053952/motor-vehicles-motor-cycles/2006-toyota-hilux-sr-4x4-kun26r-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:08:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054058/motor-vehicles-motor-cycles/mercedes-benz-sprinter-316-cdi-lwb-h-roof-turbo-diesel-automatic-van[0m
+[35m2025-08-07 22:08:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048582/motor-vehicles-motor-cycles/2018-ford-ranger-xlt-4x4-px-iii-turbo-diesel-dual-cab-wovr-repairable[0m
+[35m2025-08-07 22:08:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048609/motor-vehicles-motor-cycles/2012-volkswagen-amarok-tdi420-trendline-2h-t-d-auto-8-speed-dual-cab[0m
+[32m2025-08-07 22:08:28 [INFO] Auction sold: https://www.grays.com/lot/0001-21053886/motor-vehicles-motor-cycles/volkswagen-passat-cc-125tdi-3cc-turbo-diesel-automatic-coupe for $4400.0[0m
+[32m2025-08-07 22:08:28 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:08:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350015/motor-vehicles-motor-cycles/2019-kia-cerato-s-bd-automatic-hatchback[0m
+[35m2025-08-07 22:08:28 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712674/motor-vehicles-motor-cycles/2021-skoda-karoq-110tsi-nu-automatic-8-speed-wagon[0m
+Processing car links:  28%|##7       | 104/372 [03:30<09:15,  2.07s/link][35m2025-08-07 22:08:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054115/motor-vehicles-motor-cycles/2010-subaru-impreza-r-awd-g3-manual-hatchback[0m
+[35m2025-08-07 22:08:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912110/motor-vehicles-motor-cycles/2011-mazda-cx-7-luxury-sports-4x4-automatic-wagon[0m
+[35m2025-08-07 22:08:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912145/motor-vehicles-motor-cycles/honda-accord-euro-luxury-8th-gen-automatic-sedan[0m
+[35m2025-08-07 22:08:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349916/motor-vehicles-motor-cycles/1978-suzuki-lj50-manual-wagon[0m
+[35m2025-08-07 22:08:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912134/motor-vehicles-motor-cycles/2016-bmw-x4-xdrive-35d-f26-turbo-diesel-automatic-8-speed-coupe[0m
+[35m2025-08-07 22:08:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054028/motor-vehicles-motor-cycles/2013-holden-cruze-cd-jh-automatic-sedan[0m
+[35m2025-08-07 22:08:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912111/motor-vehicles-motor-cycles/2008-nissan-navara-st-r-4x4-d22-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:08:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062405/motor-vehicles-motor-cycles/2016-ford-ranger-xlt-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
+Processing car links:  30%|###       | 112/372 [03:45<08:42,  2.01s/link][35m2025-08-07 22:09:02 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054171/motor-vehicles-motor-cycles/2021-skoda-octavia-rs-nx-automatic-sedan[0m
+[35m2025-08-07 22:09:02 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350007/motor-vehicles-motor-cycles/2011-nissan-pathfinder-st-l-r51-automatic-7-seats-wagon-wovr-inspected[0m
+[35m2025-08-07 22:09:02 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350017/motor-vehicles-motor-cycles/2021-toyota-rav-4-fwd-gx-hybrid-axah52r-cvt-wagon[0m
+[32m2025-08-07 22:09:02 [INFO] Auction sold: https://www.grays.com/lot/0001-9062399/motor-vehicles-motor-cycles/2007-nissan-navara-st-x-4x4-d40-manual-dual-cab for $3400.0[0m
+[32m2025-08-07 22:09:02 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:09:02 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048587/motor-vehicles-motor-cycles/2019-ford-ranger-xlt-4x4-px-iii-turbo-diesel-10-auto-dual-cab[0m
+[35m2025-08-07 22:09:02 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048591/motor-vehicles-motor-cycles/2014-mazda-bt-50-4x4-xt-turbo-diesel-automatic-dual-cab[0m
+[36m2025-08-07 22:09:02 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712631/motor-vehicles-motor-cycles/2016-ford-ranger-xl-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
+[36m2025-08-07 22:09:02 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:09:02 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053955/motor-vehicles-motor-cycles/2012-subaru-forester-x-s3-automatic-wagon[0m
+Processing car links:  32%|###2      | 120/372 [04:04<08:56,  2.13s/link][35m2025-08-07 22:09:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350013/motor-vehicles-motor-cycles/2021-renault-koleos-intens-4x4-xzg-cvt-wagon[0m
+[35m2025-08-07 22:09:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048615/motor-vehicles-motor-cycles/2009-toyota-landcruiser-prado-gxl-4x4-kdj120r-t-d-auto-8-seats-wagon[0m
+[35m2025-08-07 22:09:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053991/motor-vehicles-motor-cycles/2009-nissan-navara-st-x-4x4-double-cab-d40-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:09:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712633/motor-vehicles-motor-cycles/2016-ford-ranger-xls-4x4-px-ii-turbo-diesel-automatic-dual-cab[0m
+[35m2025-08-07 22:09:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349998/motor-vehicles-motor-cycles/2011-toyota-hilux-sr-4x4-kun26r-turbo-diesel-manual-crew-cab-chassis[0m
+[35m2025-08-07 22:09:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048577/motor-vehicles-motor-cycles/2006-holden-commodore-executive-vz-automatic-wagon[0m
+[35m2025-08-07 22:09:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912112/motor-vehicles-motor-cycles/2012-volkswagen-tiguan-132-tsi-pacific-5n-automatic-wagon[0m
+[31m2025-08-07 22:09:27 [ERROR] Failed to retrieve URL (will retry later): https://www.grays.com/lot/0002-3033630/motor-vehicles-motor-cycles/2016-renault-master-mwb-mid-roof-turbo-diesel-manual-van[0m
+Processing car links:  34%|###4      | 128/372 [04:30<09:57,  2.45s/link][35m2025-08-07 22:09:45 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062550/motor-vehicles-motor-cycles/2009-holden-cruze-cd-jg-automatic-sedan[0m
+[35m2025-08-07 22:09:45 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054053/motor-vehicles-motor-cycles/2010-toyota-camry-altise-acv40r-automatic-sedan[0m
+[35m2025-08-07 22:09:45 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048618/motor-vehicles-motor-cycles/2016-toyota-rav-4-fwd-gx-zsa42r-cvt-wagon[0m
+[35m2025-08-07 22:09:45 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062554/motor-vehicles-motor-cycles/2008-honda-crf-motorcycle[0m
+[35m2025-08-07 22:09:45 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053984/motor-vehicles-motor-cycles/2013-mazda-6-atenza-gj-turbo-diesel-automatic-sedan[0m
+[35m2025-08-07 22:09:45 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054070/motor-vehicles-motor-cycles/2008-honda-accord-euro-luxury-8th-gen-automatic-sedan-wovr-inspected[0m
+[35m2025-08-07 22:09:45 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350011/motor-vehicles-motor-cycles/volkswagen-crafter-35-mwb-tdi340-fwd-turbo-diesel-automatic-8-speed-van[0m
+[32m2025-08-07 22:09:45 [INFO] Auction sold: https://www.grays.com/lot/0001-9062396/motor-vehicles-motor-cycles/2010-nissan-navara-st-4x4-d40-turbo-diesel-manual-dual-cab for $3009.0[0m
+[32m2025-08-07 22:09:45 [INFO] Added new sold vehicle to sold_cars_df.[0m
+Processing car links:  37%|###6      | 136/372 [04:47<09:21,  2.38s/link][35m2025-08-07 22:10:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054044/motor-vehicles-motor-cycles/2016-mazda-cx-5-maxx-sport-ke-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:10:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912117/motor-vehicles-motor-cycles/1999-toyota-landcruiser-rv-4x4-fzj105r-automatic-wagon[0m
+[35m2025-08-07 22:10:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912141/motor-vehicles-motor-cycles/2010-hyundai-i30-cw-sx-2-0-fd-manual-wagon[0m
+[31m2025-08-07 22:10:14 [ERROR] Failed to retrieve URL (will retry later): https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van[0m
+[35m2025-08-07 22:10:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054170/motor-vehicles-motor-cycles/2021-kia-sportage-s-2wd-ql-automatic-wagon[0m
+[35m2025-08-07 22:10:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349950/motor-vehicles-motor-cycles/2009-holden-colorado-lx-4x4-rc-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:10:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054125/motor-vehicles-motor-cycles/2006-ford-falcon-xl-bf-automatic-cab-chassis[0m
+[35m2025-08-07 22:10:14 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054164/motor-vehicles-motor-cycles/2022-hyundai-tucson-fwd-nx4-automatic-wagon[0m
+Processing car links:  39%|###8      | 144/372 [05:16<10:20,  2.72s/link][35m2025-08-07 22:10:30 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053983/motor-vehicles-motor-cycles/2013-suzuki-swift-gl-fz-automatic-hatchback[0m
+[35m2025-08-07 22:10:30 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054074/motor-vehicles-motor-cycles/2006-ford-falcon-xl-bf-automatic-cab-chassis[0m
+[35m2025-08-07 22:10:30 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053999/motor-vehicles-motor-cycles/2017-subaru-forester-2-0d-l-s4-turbo-diesel-cvt-wagon[0m
+[35m2025-08-07 22:10:30 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054050/motor-vehicles-motor-cycles/2013-mitsubishi-asx-4wd-xb-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:10:30 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054119/motor-vehicles-motor-cycles/2013-mazda-cx-5-grand-touring-ke-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:10:30 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054066/motor-vehicles-motor-cycles/2014-mazda-cx-5-akera-ke-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:10:30 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053980/motor-vehicles-motor-cycles/2009-ford-ranger-xl-4x2-pk-turbo-diesel-manual-cab-chassis[0m
+[35m2025-08-07 22:10:30 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350002/motor-vehicles-motor-cycles/2021-toyota-rav4-gx-auto-2wd[0m
+Processing car links:  41%|####      | 152/372 [05:32<09:11,  2.51s/link][35m2025-08-07 22:10:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053944/motor-vehicles-motor-cycles/2014-fiat-scudo-turbo-diesel-manual-van[0m
+[35m2025-08-07 22:10:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054194/motor-vehicles-motor-cycles/2001-subaru-outback-b3a-automatic-wagon[0m
+[35m2025-08-07 22:10:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053837/motor-vehicles-motor-cycles/2013-audi-a5-1-8-tfsi-8t-cvt-hatchback[0m
+[35m2025-08-07 22:10:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712677/motor-vehicles-motor-cycles/2020-mazda-cx-9-gt-fwd-tc-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:10:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053714/motor-vehicles-motor-cycles/2001-mercedes-benz-s500-l-w220-automatic-sedan[0m
+[35m2025-08-07 22:10:44 [INFO] Still auctioning: https://www.grays.com/lot/0027-7059160/motor-vehicles-motor-cycles/2014-nissan-infinity-q50-gt-automatic-sedan[0m
+[35m2025-08-07 22:10:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712628/motor-vehicles-motor-cycles/2012-volkswagen-jetta-118tsi-comfortline-1b-automatic-sedan[0m
+[35m2025-08-07 22:10:44 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053873/motor-vehicles-motor-cycles/2010-bmw-1-18d-e88-turbo-diesel-automatic-convertible-m-sport-pack[0m
+Processing car links:  43%|####3     | 160/372 [05:46<08:06,  2.30s/link][32m2025-08-07 22:11:03 [INFO] Auction sold: https://www.grays.com/lot/0001-21054027/motor-vehicles-motor-cycles/2015-land-rover-range-rover-evoque-td4-150-se-turbo-diesel-9-auto-wagon for $13500.0[0m
+[32m2025-08-07 22:11:03 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:11:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054083/motor-vehicles-motor-cycles/2008-nissan-navara-st-r-4x4-d22-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:11:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062558/motor-vehicles-motor-cycles/2022-yamaha-wr-motorcycle[0m
+[35m2025-08-07 22:11:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712637/motor-vehicles-motor-cycles/2020-toyota-hiace-lwb-gdh300r-turbo-diesel-manual-van[0m
+[35m2025-08-07 22:11:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912108/motor-vehicles-motor-cycles/2017-holden-captiva-7-active-le-2wd-cg-ii-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:11:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054097/motor-vehicles-motor-cycles/2011-peugeot-3008-active-automatic-hatchback[0m
+[35m2025-08-07 22:11:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053939/motor-vehicles-motor-cycles/2013-ford-focus-titanium-lw-ii-automatic-hatchback[0m
+[35m2025-08-07 22:11:03 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054043/motor-vehicles-motor-cycles/2018-mazda-cx-5-maxx-sport-kf-automatic-wagon[0m
+Processing car links:  45%|####5     | 168/372 [06:05<07:54,  2.32s/link][35m2025-08-07 22:11:18 [INFO] Still auctioning: https://www.grays.com/lot/0028-7059160/motor-vehicles-motor-cycles/2013-chrysler-300c-lx-automatic-sedan[0m
+[35m2025-08-07 22:11:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054167/motor-vehicles-motor-cycles/2022-hyundai-tucson-fwd-nx4-automatic-wagon[0m
+[35m2025-08-07 22:11:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062547/motor-vehicles-motor-cycles/2008-holden-commodore-sv6-ve-automatic-sedan[0m
+[35m2025-08-07 22:11:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054029/motor-vehicles-motor-cycles/2011-holden-cruze-cd-jh-turbo-diesel-automatic-sedan[0m
+[35m2025-08-07 22:11:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054193/motor-vehicles-motor-cycles/2014-nissan-pathfinder-st-r52-cvt-7-seats-wagon[0m
+[35m2025-08-07 22:11:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054101/motor-vehicles-motor-cycles/2016-subaru-levorg-2-0gt-s-v1-cvt-wagon[0m
+[35m2025-08-07 22:11:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054144/motor-vehicles-motor-cycles/2017-ford-everest-titanium-4wd-ua-turbo-diesel-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:11:18 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054242/motor-vehicles-motor-cycles/2012-skoda-octavia-rs-147tsi-1z-automatic-wagon[0m
+Processing car links:  47%|####7     | 176/372 [06:20<07:06,  2.18s/link][35m2025-08-07 22:11:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349938/motor-vehicles-motor-cycles/2023-suzuki-carry-import-manual-truck[0m
+[35m2025-08-07 22:11:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516309/motor-vehicles-motor-cycles/2021-bmw-4-series-420i-gran-coupe-g26-automatic-8-speed-sedan[0m
+[35m2025-08-07 22:11:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053950/motor-vehicles-motor-cycles/2007-toyota-aurion-trd-3500sl-gsv40r-automatic-sedan[0m
+[35m2025-08-07 22:11:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048608/motor-vehicles-motor-cycles/2015-mazda-bt-50-4x4-xtr-turbo-diesel-automatic-dual-cab[0m
+[35m2025-08-07 22:11:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054016/motor-vehicles-motor-cycles/2011-audi-a6-2-0-tdi-c7-turbo-diesel-cvt-sedan[0m
+[35m2025-08-07 22:11:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054121/motor-vehicles-motor-cycles/2012-ford-falcon-xr6-lpi-fg-ii-automatic-sedan-wovr-inspected[0m
+[35m2025-08-07 22:11:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349996/motor-vehicles-motor-cycles/2012-mitsubishi-triton-glx-mn-turbo-diesel-automatic-cab-chassis[0m
+[35m2025-08-07 22:11:34 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048586/motor-vehicles-motor-cycles/2008-toyota-kluger-grande-4x4-gsu45r-automatic-wagon[0m
+Processing car links:  49%|####9     | 184/372 [06:37<06:44,  2.15s/link][36m2025-08-07 22:11:50 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516258/motor-vehicles-motor-cycles/2011-toyota-landcruiser-prado-vx-4x4-kdj150r-turbo-diesel-auto-7-seats[0m
+[36m2025-08-07 22:11:50 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:11:50 [INFO] Still auctioning: https://www.grays.com/lot/0037-7059160/motor-vehicles-motor-cycles/ford-falcon-rtv-rwd-automatic-ute[0m
+[35m2025-08-07 22:11:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054250/motor-vehicles-motor-cycles/2015-volkswagen-golf-103tsi-highline-a7-automatic-hatchback[0m
+[35m2025-08-07 22:11:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062553/motor-vehicles-motor-cycles/2007-holden-calais-ve-automatic-sedan[0m
+[35m2025-08-07 22:11:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054227/motor-vehicles-motor-cycles/2007-holden-combo-xc-manual-van[0m
+[32m2025-08-07 22:11:50 [INFO] Auction sold: https://www.grays.com/lot/0001-10349990/motor-vehicles-motor-cycles/2012-toyota-hiace-slwb-kdh221r-turbo-diesel-automatic-van for $3700.0[0m
+[32m2025-08-07 22:11:50 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:11:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054172/motor-vehicles-motor-cycles/2022-peugeot-2008-gt-p24-automatic-wagon[0m
+[35m2025-08-07 22:11:50 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062556/motor-vehicles-motor-cycles/2010-holden-commodore-sv6-ve-manual-sedan[0m
+Processing car links:  52%|#####1    | 192/372 [06:53<06:19,  2.11s/link][35m2025-08-07 22:12:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-10349980/motor-vehicles-motor-cycles/2013-mercedes-benz-c180-be-c204-automatic-coupe[0m
+[35m2025-08-07 22:12:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048578/motor-vehicles-motor-cycles/2012-ford-ranger-xlt-4x4-px-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:12:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054226/motor-vehicles-motor-cycles/volkswagen-amarok-tdi550-highline-2h-turbo-diesel-auto-dual-cab[0m
+[35m2025-08-07 22:12:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054034/motor-vehicles-motor-cycles/2007-toyota-mark-x-import-automatic-sedan[0m
+[35m2025-08-07 22:12:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712646/motor-vehicles-motor-cycles/2013-suzuki-grand-vitara-sport-4wd-jt-manual-wagon[0m
+[35m2025-08-07 22:12:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054237/motor-vehicles-motor-cycles/2011-holden-captiva-5-4x4-cg-ii-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:12:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053979/motor-vehicles-motor-cycles/2003-holden-commodore-executive-vy-automatic-sedan[0m
+[35m2025-08-07 22:12:08 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053673/motor-vehicles-motor-cycles/2002-land-rover-range-rover-hse-automatic-wagon[0m
+Processing car links:  54%|#####3    | 200/372 [07:11<06:09,  2.15s/link][35m2025-08-07 22:12:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053945/motor-vehicles-motor-cycles/2017-volkswagen-polo-66tsi-trendline-6r-auto-hatchback[0m
+[35m2025-08-07 22:12:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912121/motor-vehicles-motor-cycles/2015-ford-ecosport-titanium-bk-automatic-wagon[0m
+[36m2025-08-07 22:12:26 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062401/motor-vehicles-motor-cycles/2014-ford-falcon-fg-ii-automatic-ute[0m
+[36m2025-08-07 22:12:26 [INFO] Added new referred vehicle to referred_df.[0m
+[32m2025-08-07 22:12:26 [INFO] Auction sold: https://www.grays.com/lot/0001-9062320/motor-vehicles-motor-cycles/2010-toyota-kluger-kx-r-4x4-gsu45r-automatic-wagon for $6000.0[0m
+[32m2025-08-07 22:12:26 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:12:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516310/motor-vehicles-motor-cycles/2011-audi-a5-2-0-tfsi-quattro-8t-automatic-coupe[0m
+[35m2025-08-07 22:12:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053989/motor-vehicles-motor-cycles/2000-holden-commodore-executive-vt-automatic-sedan[0m
+[35m2025-08-07 22:12:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048581/motor-vehicles-motor-cycles/2008-hummer-h2-dreamtech-4wd-automatic-limousine[0m
+[35m2025-08-07 22:12:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712644/motor-vehicles-motor-cycles/mercedes-benz-vito-113-cdi-swb-turbo-diesel-automatic-8-seats-people-mover[0m
+Processing car links:  56%|#####5    | 208/372 [07:28<05:54,  2.16s/link][35m2025-08-07 22:12:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054075/motor-vehicles-motor-cycles/2005-nissan-skyline-automatic-sedan[0m
+[35m2025-08-07 22:12:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048570/motor-vehicles-motor-cycles/2014-mazda-cx-5-maxx-sport-ke-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:12:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053731/motor-vehicles-motor-cycles/2001-toyota-landcruiser-prado-prado-gxl-4x4-vzj95r-auto-8-seats-wagon[0m
+[36m2025-08-07 22:12:41 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516302/motor-vehicles-motor-cycles/2020-jeep-compass-night-eagle-bg-automatic-wagon[0m
+[36m2025-08-07 22:12:41 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:12:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712673/motor-vehicles-motor-cycles/2023-volkswagen-tiguan-allspace-162tsi-elegance-5na-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:12:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054010/motor-vehicles-motor-cycles/lexus-is-220d-import-manual-sedan[0m
+[36m2025-08-07 22:12:41 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062404/motor-vehicles-motor-cycles/2019-ford-ranger-xl-4x4-px-iii-turbo-diesel-automatic-dual-cab[0m
+[36m2025-08-07 22:12:41 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:12:41 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053974/motor-vehicles-motor-cycles/2017-ford-mondeo-titanium-tdci-md-turbo-diesel-automatic-wagon[0m
+Processing car links:  58%|#####8    | 216/372 [07:43<05:21,  2.06s/link][36m2025-08-07 22:13:00 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516301/motor-vehicles-motor-cycles/2007-toyota-landcruiser-prado-grande-4x4-kdj120r-td-at-8-seats-wagon[0m
+[36m2025-08-07 22:13:00 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:13:00 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053941/motor-vehicles-motor-cycles/2003-mazda-323-astina-bj-automatic-hatchback[0m
+[35m2025-08-07 22:13:00 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054239/motor-vehicles-motor-cycles/2007-toyota-corolla-ascent-zre152r-automatic-sedan[0m
+[36m2025-08-07 22:13:00 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712629/motor-vehicles-motor-cycles/2020-mitsubishi-triton-4x4-glx-adas-club-ca-mr-turbo-diesel-at-extra-cab[0m
+[36m2025-08-07 22:13:00 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:13:00 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053985/motor-vehicles-motor-cycles/2012-ford-falcon-xr6-fg-ii-automatic-sedan[0m
+[35m2025-08-07 22:13:00 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054032/motor-vehicles-motor-cycles/2015-volkswagen-multivan-comfortline-tdi400-t5-auto-7-seats-people-mover[0m
+[35m2025-08-07 22:13:00 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912109/motor-vehicles-motor-cycles/2013-ford-ranger-xl-4x4-px-turbo-diesel-automatic-dual-cab[0m
+[32m2025-08-07 22:13:00 [INFO] Auction sold: https://www.grays.com/lot/0001-21053962/motor-vehicles-motor-cycles/2012-jeep-grand-cherokee-srt-8-wk-automatic-wagon for $19500.0[0m
+[32m2025-08-07 22:13:00 [INFO] Added new sold vehicle to sold_cars_df.[0m
+Processing car links:  60%|######    | 224/372 [08:02<05:19,  2.16s/link][31m2025-08-07 22:13:27 [ERROR] Failed to retrieve URL (will retry later): https://www.grays.com/lot/0117-3033596/motor-vehicles-motor-cycles/1992-honda-dio-sr-motorcycle[0m
+[35m2025-08-07 22:13:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053990/motor-vehicles-motor-cycles/2014-mazda-cx-5-akera-ke-turbo-diesel-automatic-wagon[0m
+[36m2025-08-07 22:13:27 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062403/motor-vehicles-motor-cycles/2016-toyota-aurion-presara-gsv50r-automatic-sedan[0m
+[36m2025-08-07 22:13:27 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:13:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712617/motor-vehicles-motor-cycles/2004-toyota-landcruiser-prado-gxl-4x4-kzj120r-t-d-manual-8-seats[0m
+[35m2025-08-07 22:13:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054057/motor-vehicles-motor-cycles/2016-nissan-qashqai-tl-j11-turbo-diesel-cvt-wagon[0m
+[35m2025-08-07 22:13:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054042/motor-vehicles-motor-cycles/2016-hyundai-i30-active-gd-automatic-hatchback[0m
+[35m2025-08-07 22:13:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054072/motor-vehicles-motor-cycles/2011-audi-a6-2-8-fsi-quattro-c7-automatic-sedan[0m
+[35m2025-08-07 22:13:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054104/motor-vehicles-motor-cycles/2014-mazda-cx-9-grand-touring-automatic-7-seats-wagon[0m
+Processing car links:  62%|######2   | 232/372 [08:30<05:57,  2.55s/link][35m2025-08-07 22:13:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053972/motor-vehicles-motor-cycles/2013-alfa-romeo-giulietta-progression-t-d-auto-hatchback[0m
+[35m2025-08-07 22:13:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054039/motor-vehicles-motor-cycles/2011-holden-sportwagon-sv6-ve-automatic-wagon[0m
+[35m2025-08-07 22:13:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062549/motor-vehicles-motor-cycles/2009-holden-commodore-omega-ve-automatic-sedan[0m
+[35m2025-08-07 22:13:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053881/motor-vehicles-motor-cycles/2013-volvo-xc60-t5-teknik-automatic-wagon[0m
+[35m2025-08-07 22:13:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048571/motor-vehicles-motor-cycles/2013-jeep-grand-cherokee-limited-wk-automatic-8-speed-wagon[0m
+[35m2025-08-07 22:13:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516312/motor-vehicles-motor-cycles/ford-bronco-automatic-tow-truck[0m
+[35m2025-08-07 22:13:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912124/motor-vehicles-motor-cycles/2016-hyundai-tucson-active-fwd-tl-automatic-wagon[0m
+[35m2025-08-07 22:13:40 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054076/motor-vehicles-motor-cycles/2006-mitsubishi-pajero-exceed-lwb-4x4-np-turbo-diesel-auto-7-seats-wagon[0m
+Processing car links:  65%|######4   | 240/372 [08:42<04:58,  2.26s/link][36m2025-08-07 22:13:55 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062409/motor-vehicles-motor-cycles/2021-mercedes-benz-cla-class-cla45s-amg-c118-automatic-8-speed-coupe[0m
+[36m2025-08-07 22:13:55 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:13:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053996/motor-vehicles-motor-cycles/2013-ford-focus-titanium-lw-ii-automatic-hatchback[0m
+[35m2025-08-07 22:13:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054062/motor-vehicles-motor-cycles/2009-holden-commodore-omega-ve-automatic-sedan[0m
+[35m2025-08-07 22:13:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053946/motor-vehicles-motor-cycles/toyota-majesta-automatic-sedan-rwc-issued-30-07-2025[0m
+[35m2025-08-07 22:13:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912114/motor-vehicles-motor-cycles/2002-jaguar-x-type-se-x400-automatic-sedan[0m
+[32m2025-08-07 22:13:55 [INFO] Auction sold: https://www.grays.com/lot/0001-21054020/motor-vehicles-motor-cycles/2004-honda-accord-euro-7th-gen-automatic-sedan for $1809.0[0m
+[32m2025-08-07 22:13:55 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:13:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712635/motor-vehicles-motor-cycles/2003-mercedes-benz-e320-elegance-w211-automatic-sedan[0m
+[35m2025-08-07 22:13:55 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054011/motor-vehicles-motor-cycles/2012-mazda-cx-5-maxx-sport-ke-turbo-diesel-automatic-wagon[0m
+Processing car links:  67%|######6   | 248/372 [08:58<04:27,  2.16s/link][35m2025-08-07 22:14:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054085/motor-vehicles-motor-cycles/2014-holden-colorado-4x4-lx-rg-turbo-diesel-manual-extra-cab[0m
+[35m2025-08-07 22:14:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053966/motor-vehicles-motor-cycles/2011-audi-a6-2-0-tfsi-c7-cvt-sedan[0m
+[35m2025-08-07 22:14:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054249/motor-vehicles-motor-cycles/2021-mitsubishi-triton-glx-mr-turbo-diesel-automatic-cab-chassis[0m
+[32m2025-08-07 22:14:13 [INFO] Auction sold: https://www.grays.com/lot/0001-9062394/motor-vehicles-motor-cycles/2004-nissan-navara-manual-ute for $1709.0[0m
+[32m2025-08-07 22:14:13 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:14:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054166/motor-vehicles-motor-cycles/2022-hyundai-tucson-elite-fwd-nx4-automatic-wagon[0m
+[35m2025-08-07 22:14:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516305/motor-vehicles-motor-cycles/2021-land-rover-discovery-d300-se-series-5-td-at-8-speed-7-seats-wagon[0m
+[35m2025-08-07 22:14:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053948/motor-vehicles-motor-cycles/2015-subaru-xv-2-0i-s-g4x-manual-hatchback[0m
+[35m2025-08-07 22:14:13 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912135/motor-vehicles-motor-cycles/2009-land-rover-discovery-3-0-tdv6-se-series-4-t-diesel-auto-7-seats-wagon[0m
+Processing car links:  69%|######8   | 256/372 [09:15<04:11,  2.17s/link][35m2025-08-07 22:14:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054022/motor-vehicles-motor-cycles/2002-mercedes-benz-c-class-kompressor-classic-w203-automatic-sedan[0m
+[35m2025-08-07 22:14:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053967/motor-vehicles-motor-cycles/2013-jeep-grand-cherokee-laredo-wk-automatic-8-speed-wagon[0m
+[35m2025-08-07 22:14:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062552/motor-vehicles-motor-cycles/2010-holden-calais-ve-automatic-sedan[0m
+[35m2025-08-07 22:14:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054244/motor-vehicles-motor-cycles/2008-holden-astra-sri-ah-manual-hatchback[0m
+[35m2025-08-07 22:14:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712672/motor-vehicles-motor-cycles/2018-holden-commodore-liftback-lt-zb-9-auto-hatchback[0m
+[35m2025-08-07 22:14:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054110/motor-vehicles-motor-cycles/2009-mitsubishi-outlander-vr-zh-automatic-wagon[0m
+[35m2025-08-07 22:14:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712647/motor-vehicles-motor-cycles/2014-hyundai-elantra-active-md-automatic-sedan[0m
+[35m2025-08-07 22:14:27 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048610/motor-vehicles-motor-cycles/2014-hyundai-i30-active-gd-automatic-hatchback[0m
+Processing car links:  71%|#######   | 264/372 [09:29<03:41,  2.05s/link][35m2025-08-07 22:14:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350000/motor-vehicles-motor-cycles/2013-honda-cr-v-2wd-vti-rm-automatic-wagon[0m
+[35m2025-08-07 22:14:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048576/motor-vehicles-motor-cycles/2008-ford-falcon-futura-bf-mkii-automatic-wagon[0m
+[36m2025-08-07 22:14:43 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062339/motor-vehicles-motor-cycles/2019-mitsubishi-asx-es-2wd-xc-cvt-wagon[0m
+[36m2025-08-07 22:14:43 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:14:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912132/motor-vehicles-motor-cycles/2014-ford-focus-trend-lw-ii-automatic-hatchback[0m
+[35m2025-08-07 22:14:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053956/motor-vehicles-motor-cycles/2013-mercedes-benz-c200-be-w204-automatic-sedan[0m
+[35m2025-08-07 22:14:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054003/motor-vehicles-motor-cycles/2015-mazda-cx-5-grand-touring-ke-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:14:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054019/motor-vehicles-motor-cycles/2006-renault-kangoo-automatic-van[0m
+[35m2025-08-07 22:14:43 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350012/motor-vehicles-motor-cycles/2021-toyota-camry-ascent-sport-hybrid-axvh70r-cvt-sedan[0m
+Processing car links:  73%|#######3  | 272/372 [09:45<03:22,  2.03s/link][35m2025-08-07 22:14:57 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048579/motor-vehicles-motor-cycles/2013-mercedes-benz-ml250-bluetec-w166-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:14:57 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048613/motor-vehicles-motor-cycles/2015-jeep-renegade-limited-bu-automatic-wagon[0m
+[32m2025-08-07 22:14:57 [INFO] Auction sold: https://www.grays.com/lot/0001-9062400/motor-vehicles-motor-cycles/2012-mitsubishi-triton-4x4-glx-mn-turbo-diesel-manual-dual-cab for $6900.0[0m
+[32m2025-08-07 22:14:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[32m2025-08-07 22:14:58 [INFO] Auction sold: https://www.grays.com/lot/0001-9062395/motor-vehicles-motor-cycles/2007-toyota-hilux-4x2-sr-kun16r-turbo-diesel-manual-dual-cab for $3400.0[0m
+[32m2025-08-07 22:14:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:14:58 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912142/motor-vehicles-motor-cycles/2017-mazda-cx-3-maxx-dk-turbo-diesel-automatic-wagon[0m
+[32m2025-08-07 22:14:58 [INFO] Auction sold: https://www.grays.com/lot/0001-21053811/motor-vehicles-motor-cycles/2019-ldv-g10-executive-7-seat-automatic-7-seats-people-mover for $5000.0[0m
+[32m2025-08-07 22:14:58 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:14:58 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054230/motor-vehicles-motor-cycles/2007-nissan-navara-st-x-4x4-d40-turbo-diesel-automatic-dual-cab[0m
+[35m2025-08-07 22:14:58 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053988/motor-vehicles-motor-cycles/2013-toyota-prius-zvw30r-cvt-hatchback[0m
+Processing car links:  75%|#######5  | 280/372 [10:00<03:01,  1.97s/link][35m2025-08-07 22:15:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912105/motor-vehicles-motor-cycles/2015-holden-colorado-4x4-lx-rg-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:15:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054090/motor-vehicles-motor-cycles/2019-ldv-t60-luxe-mega-tub-turbo-diesel-automatic-dual-cab[0m
+[35m2025-08-07 22:15:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048565/motor-vehicles-motor-cycles/2011-hyundai-i20-elite-pb-manual-hatchback[0m
+[35m2025-08-07 22:15:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053938/motor-vehicles-motor-cycles/2012-mercedes-benz-a-class-a200-cdi-be-w176-turbo-diesel-7-man-hatchback[0m
+[35m2025-08-07 22:15:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053975/motor-vehicles-motor-cycles/2004-bmw-x5-4-4i-e53-automatic-wagon[0m
+[35m2025-08-07 22:15:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912106/motor-vehicles-motor-cycles/2007-toyota-landcruiser-workmate-4x4-vdj79r-t-diesel-manual-cab-chassis[0m
+[35m2025-08-07 22:15:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912115/motor-vehicles-motor-cycles/2010-holden-sportwagon-sv6-ve-automatic-wagon[0m
+[35m2025-08-07 22:15:11 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054071/motor-vehicles-motor-cycles/2016-lexus-nx-nx200t-luxury-agz10r-automatic-wagon[0m
+Processing car links:  77%|#######7  | 288/372 [10:13<02:36,  1.86s/link][35m2025-08-07 22:15:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516307/motor-vehicles-motor-cycles/2009-ford-falcon-xr8-fg-automatic-sedan[0m
+[35m2025-08-07 22:15:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912118/motor-vehicles-motor-cycles/2010-ford-transit-mid-mwb-vm-turbo-diesel-manual-van[0m
+[35m2025-08-07 22:15:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054035/motor-vehicles-motor-cycles/2006-peugeot-407-st-automatic-sedan[0m
+[35m2025-08-07 22:15:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054168/motor-vehicles-motor-cycles/2021-hyundai-i30-pd-automatic-hatchback[0m
+[35m2025-08-07 22:15:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712634/motor-vehicles-motor-cycles/2012-audi-q3-2-0-tfsi-quattro-8u-automatic-wagon[0m
+[35m2025-08-07 22:15:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-20027132/motor-vehicles-motor-cycles/2016-audi-q5-2-0-tfsi-quattro-8r-automatic-8-speed-wagon[0m
+[35m2025-08-07 22:15:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054252/motor-vehicles-motor-cycles/2010-ford-fiesta-lx-wt-manual-hatchback[0m
+[35m2025-08-07 22:15:26 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712638/motor-vehicles-motor-cycles/2015-jeep-grand-cherokee-overland-wk-turbo-diesel-automatic-8-speed-wagon[0m
+Processing car links:  80%|#######9  | 296/372 [10:28<02:23,  1.89s/link][32m2025-08-07 22:15:39 [INFO] Auction sold: https://www.grays.com/lot/0001-9062384/motor-vehicles-motor-cycles/2011-kia-sorento-si-4x2-xm-automatic-7-seats-wagon for $2600.0[0m
+[32m2025-08-07 22:15:39 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:15:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053429/motor-vehicles-motor-cycles/2005-kia-rio-ex-jb-automatic-hatchback[0m
+[35m2025-08-07 22:15:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350062/motor-vehicles-motor-cycles/1978-range-rover-automatic-utility[0m
+[35m2025-08-07 22:15:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054099/motor-vehicles-motor-cycles/2012-ford-kuga-titanium-te-automatic-wagon[0m
+[35m2025-08-07 22:15:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062555/motor-vehicles-motor-cycles/2015-cfmoto-nks-motorcycle[0m
+[35m2025-08-07 22:15:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054081/motor-vehicles-motor-cycles/2007-mitsubishi-pajero-vr-x-lwb-4x4-ns-turbo-diesel-auto-7-seats-wagon[0m
+[35m2025-08-07 22:15:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053981/motor-vehicles-motor-cycles/2011-nissan-navara-rx-4x2-d40-turbo-diesel-automatic-dual-cab[0m
+[35m2025-08-07 22:15:39 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053997/motor-vehicles-motor-cycles/2013-nissan-pulsar-st-c12-cvt-hatchback[0m
+Processing car links:  82%|########1 | 304/372 [10:41<02:03,  1.82s/link][35m2025-08-07 22:15:52 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053993/motor-vehicles-motor-cycles/1999-holden-commodore-equipe-vt-automatic-sedan[0m
+[35m2025-08-07 22:15:52 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053953/motor-vehicles-motor-cycles/2008-mitsubishi-triton-glx-ml-turbo-diesel-automatic-cab-chassis[0m
+[35m2025-08-07 22:15:52 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048589/motor-vehicles-motor-cycles/2009-suzuki-grand-vitara-4x4-jt-automatic-wagon[0m
+[35m2025-08-07 22:15:52 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054007/motor-vehicles-motor-cycles/2008-toyota-yaris-yr-ncp90r-automatic-hatchback[0m
+[35m2025-08-07 22:15:52 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053937/motor-vehicles-motor-cycles/2008-honda-accord-v6-8th-gen-automatic-sedan[0m
+[35m2025-08-07 22:15:52 [INFO] Still auctioning: https://www.grays.com/lot/0029-7059160/motor-vehicles-motor-cycles/2007-mazda-bt50-manual-ute-wovr-inspected[0m
+[35m2025-08-07 22:15:52 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054195/motor-vehicles-motor-cycles/2008-toyota-aurion-at-x-gsv40r-automatic-sedan[0m
+[35m2025-08-07 22:15:52 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054059/motor-vehicles-motor-cycles/2013-audi-a3-automatic-hatchback-rwc-issued-25-07-2025[0m
+Processing car links:  84%|########3 | 312/372 [10:54<01:45,  1.75s/link][31m2025-08-07 22:16:05 [INFO] Cancelled auction: https://www.grays.com/lot/0001-21054031/motor-vehicles-motor-cycles/2001-toyota-hilux-manual-dual-cab[0m
+[35m2025-08-07 22:16:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712636/motor-vehicles-motor-cycles/2009-renault-koleos-dynamique-4x2-manual-wagon[0m
+[35m2025-08-07 22:16:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054021/motor-vehicles-motor-cycles/2014-hyundai-i40-elite-vf-turbo-diesel-automatic-sedan[0m
+[35m2025-08-07 22:16:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054094/motor-vehicles-motor-cycles/2012-mazda-cx-5-grand-touring-ke-turbo-diesel-auto-rwc-issued-29-07-2025[0m
+[35m2025-08-07 22:16:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053968/motor-vehicles-motor-cycles/2013-mercedes-benz-s-class-s500-swb-w222-automatic-sedan[0m
+[35m2025-08-07 22:16:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054064/motor-vehicles-motor-cycles/2013-ford-territory-tx-rwd-sz-turbo-diesel-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:16:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054041/motor-vehicles-motor-cycles/2012-nissan-dualis-2-ti-4x2-j10-ii-cvt-7-seats-wagon[0m
+[35m2025-08-07 22:16:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054228/motor-vehicles-motor-cycles/2010-volkswagen-golf-118tsi-comfortline-a6-automatic-hatchback[0m
+Processing car links:  86%|########6 | 320/372 [11:07<01:27,  1.69s/link][35m2025-08-07 22:16:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516306/motor-vehicles-motor-cycles/2015-renault-clio-expression-automatic-hatchback[0m
+[35m2025-08-07 22:16:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912136/motor-vehicles-motor-cycles/2020-ldv-t60-pro-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:16:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054023/motor-vehicles-motor-cycles/2012-great-wall-v240-4x2-manual-cab-chassis[0m
+[35m2025-08-07 22:16:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054000/motor-vehicles-motor-cycles/mercedes-benz-valente-turbo-diesel-automatic-8-seats-people-mover[0m
+[35m2025-08-07 22:16:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912144/motor-vehicles-motor-cycles/2006-toyota-landcruiser-prado-gxl-4x4-grj120r-automatic-8-seats-wagon[0m
+[35m2025-08-07 22:16:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053954/motor-vehicles-motor-cycles/2008-subaru-tribeca-3-6r-premium-b9-automatic-rwc-issued-21-07-2025[0m
+[35m2025-08-07 22:16:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054086/motor-vehicles-motor-cycles/2013-hyundai-ix35-se-fwd-lm-automatic-wagon[0m
+[35m2025-08-07 22:16:20 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062560/motor-vehicles-motor-cycles/2012-cfmoto-motorcycle[0m
+Processing car links:  88%|########8 | 328/372 [11:22<01:17,  1.76s/link][35m2025-08-07 22:16:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054105/motor-vehicles-motor-cycles/2013-volkswagen-polo-gti-6r-automatic-hatchback[0m
+[35m2025-08-07 22:16:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054221/motor-vehicles-motor-cycles/2006-honda-cr-v-sport-rd-automatic-wagon[0m
+[35m2025-08-07 22:16:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-10350004/motor-vehicles-motor-cycles/2018-ford-ranger-xl-4x2-hi-rider-turbo-diesel-automatic-crew-cab-chassis[0m
+[32m2025-08-07 22:16:33 [INFO] Auction sold: https://www.grays.com/lot/0117-7059153/motor-vehicles-motor-cycles/2017-toyota-landcruiser-single-cab-v8-turbo-diesel-ute for $18250.0[0m
+[32m2025-08-07 22:16:33 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:16:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062559/motor-vehicles-motor-cycles/2008-holden-calais-ve-automatic-sedan[0m
+[35m2025-08-07 22:16:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054025/motor-vehicles-motor-cycles/2012-nissan-leaf-direct-drive-hatchback[0m
+[35m2025-08-07 22:16:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054109/motor-vehicles-motor-cycles/2007-volkswagen-jetta-2-0-tdi-1km-turbo-diesel-automatic-sedan[0m
+[35m2025-08-07 22:16:33 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054009/motor-vehicles-motor-cycles/2008-toyota-rav-4-cv-aca33r-automatic-wagon[0m
+Processing car links:  90%|######### | 336/372 [11:35<01:02,  1.74s/link][35m2025-08-07 22:16:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054092/motor-vehicles-motor-cycles/2013-toyota-86-gt-zn6-manual-coupe[0m
+[35m2025-08-07 22:16:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053949/motor-vehicles-motor-cycles/2014-holden-cruze-cd-jh-automatic-hatchback[0m
+[35m2025-08-07 22:16:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054231/motor-vehicles-motor-cycles/2013-land-rover-range-rover-evoque-sd4-dynamic-turbo-diesel-manual-wagon[0m
+[35m2025-08-07 22:16:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912120/motor-vehicles-motor-cycles/2013-nissan-pathfinder-st-r52-cvt-7-seats-wagon[0m
+[36m2025-08-07 22:16:48 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50712630/motor-vehicles-motor-cycles/2015-mitsubishi-triton-glx-4x4-mn-turbo-diesel-automatic-dual-cab[0m
+[36m2025-08-07 22:16:48 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:16:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053958/motor-vehicles-motor-cycles/2015-toyota-camry-altise-asv50r-automatic-sedan[0m
+[32m2025-08-07 22:16:48 [INFO] Auction sold: https://www.grays.com/lot/0001-9062392/motor-vehicles-motor-cycles/2007-honda-civic-vti-l-8th-gen-manual-sedan for $2800.0[0m
+[32m2025-08-07 22:16:48 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:16:48 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054056/motor-vehicles-motor-cycles/2011-mazda-cx-7-classic-automatic-wagon[0m
+Processing car links:  92%|#########2| 344/372 [11:50<00:49,  1.76s/link][35m2025-08-07 22:17:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053978/motor-vehicles-motor-cycles/2016-land-rover-range-rover-evoque-td4-150-se-turbo-diesel-9-auto-wagon[0m
+[35m2025-08-07 22:17:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054040/motor-vehicles-motor-cycles/2012-mazda-cx-5-grand-touring-ke-turbo-diesel-automatic-wagon[0m
+[35m2025-08-07 22:17:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054122/motor-vehicles-motor-cycles/2017-toyota-hilux-4x2-sr-hi-rider-gun136r-turbo-diesel-automatic-dual-cab[0m
+[35m2025-08-07 22:17:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912103/motor-vehicles-motor-cycles/2008-toyota-camry-altise-acv40r-automatic-sedan-wovr-inspected[0m
+[35m2025-08-07 22:17:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712675/motor-vehicles-motor-cycles/2020-toyota-camry-ascent-asv70r-automatic-sedan[0m
+[36m2025-08-07 22:17:05 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-50516303/motor-vehicles-motor-cycles/2013-toyota-rav-4-fwd-gx-zsa42r-manual-wagon[0m
+[36m2025-08-07 22:17:05 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:17:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053973/motor-vehicles-motor-cycles/2013-holden-cruze-automatic-hatch[0m
+[35m2025-08-07 22:17:05 [INFO] Still auctioning: https://www.grays.com/lot/0001-60048584/motor-vehicles-motor-cycles/2015-hyundai-tucson-active-x-tl-manual-wagon[0m
+Processing car links:  95%|#########4| 352/372 [12:07<00:37,  1.88s/link][35m2025-08-07 22:17:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-50712643/motor-vehicles-motor-cycles/2000-dodge-durango-slt-import-automatic-wagon[0m
+[35m2025-08-07 22:17:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054006/motor-vehicles-motor-cycles/2010-toyota-landcruiser-prado-gxl-grj150r-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:17:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054052/motor-vehicles-motor-cycles/2009-ford-ranger-xl-4x2-pk-turbo-diesel-automatic-dual-cab[0m
+[36m2025-08-07 22:17:19 [INFO] Auction referred (no sale): https://www.grays.com/lot/0001-9062406/motor-vehicles-motor-cycles/2017-mazda-bt-50-4x4-xt-turbo-diesel-automatic-dual-cab[0m
+[36m2025-08-07 22:17:19 [INFO] Added new referred vehicle to referred_df.[0m
+[35m2025-08-07 22:17:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054015/motor-vehicles-motor-cycles/2015-honda-odyssey-vti-l-cvt-7-seats-people-mover[0m
+[35m2025-08-07 22:17:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054093/motor-vehicles-motor-cycles/2015-mercedes-benz-gla-class-gla45-amg-4matic-x156-automatic-wagon[0m
+[35m2025-08-07 22:17:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912104/motor-vehicles-motor-cycles/2017-jaguar-f-pace-20d-prestige-turbo-diesel-automatic-8-speed-wagon[0m
+[35m2025-08-07 22:17:19 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054165/motor-vehicles-motor-cycles/2018-mazda-cx-9-sport-awd-tc-automatic-7-seats-wagon[0m
+Processing car links:  97%|#########6| 360/372 [12:21<00:22,  1.84s/link][35m2025-08-07 22:17:35 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054241/motor-vehicles-motor-cycles/2011-toyota-kluger-kx-s-fwd-gsu40r-automatic-7-seats-wagon[0m
+[35m2025-08-07 22:17:35 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053970/motor-vehicles-motor-cycles/2011-toyota-yaris-yr-ncp90r-automatic-hatchback[0m
+[35m2025-08-07 22:17:35 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054073/motor-vehicles-motor-cycles/2014-holden-barina-tm-automatic-hatchback[0m
+[35m2025-08-07 22:17:35 [INFO] Still auctioning: https://www.grays.com/lot/0001-21054084/motor-vehicles-motor-cycles/2011-bmw-3-20i-touring-executive-e91-automatic-wagon[0m
+[35m2025-08-07 22:17:35 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912102/motor-vehicles-motor-cycles/2012-nissan-navara-4x4-st-d40-turbo-diesel-manual-dual-cab[0m
+[35m2025-08-07 22:17:35 [INFO] Still auctioning: https://www.grays.com/lot/0001-10912128/motor-vehicles-motor-cycles/2017-subaru-forester-2-0d-l-s4-turbo-diesel-cvt-wagon[0m
+[35m2025-08-07 22:17:35 [INFO] Still auctioning: https://www.grays.com/lot/0001-9062557/motor-vehicles-motor-cycles/2009-hyundai-i30-sx-fd-manual-hatchback[0m
+[35m2025-08-07 22:17:35 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053969/motor-vehicles-motor-cycles/2003-honda-jazz-vti-s-gd-automatic-hatchback[0m
+Processing car links:  99%|#########8| 368/372 [12:37<00:07,  1.89s/link][35m2025-08-07 22:17:46 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053885/motor-vehicles-motor-cycles/land-rover-range-rover-evoque-td4-se-110kw-turbo-diesel-9-auto-wagon[0m
+[35m2025-08-07 22:17:46 [INFO] Still auctioning: https://www.grays.com/lot/0001-21053976/motor-vehicles-motor-cycles/2016-hyundai-iload-tq-ii-turbo-diesel-automatic-van[0m
+[32m2025-08-07 22:17:46 [INFO] Auction sold: https://www.grays.com/lot/0001-9062391/motor-vehicles-motor-cycles/2013-ford-focus-manual-hatchback for $3500.0[0m
+[32m2025-08-07 22:17:46 [INFO] Added new sold vehicle to sold_cars_df.[0m
+[35m2025-08-07 22:17:46 [INFO] Still auctioning: https://www.grays.com/lot/0001-50516308/motor-vehicles-motor-cycles/2019-jaguar-f-pace-20d-chequered-flag-a-td-at-8-speed-wagon[0m
+Processing car links: 100%|##########| 372/372 [12:48<00:00,  2.05s/link]Processing car links: 100%|##########| 372/372 [12:49<00:00,  2.07s/link]
 Error extracting Location: list index out of range
-Unknown status for URL: https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van (Attempt 1)
-Unknown status for URL: https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van (Attempt 2)
-Unknown status for URL: https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van (Attempt 3)
-Failed to retrieve page after 3 attempts: https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van
 Unknown status for URL: https://www.grays.com/lot/0002-3033630/motor-vehicles-motor-cycles/2016-renault-master-mwb-mid-roof-turbo-diesel-manual-van (Attempt 1)
 Unknown status for URL: https://www.grays.com/lot/0002-3033630/motor-vehicles-motor-cycles/2016-renault-master-mwb-mid-roof-turbo-diesel-manual-van (Attempt 2)
 Unknown status for URL: https://www.grays.com/lot/0002-3033630/motor-vehicles-motor-cycles/2016-renault-master-mwb-mid-roof-turbo-diesel-manual-van (Attempt 3)
 Failed to retrieve page after 3 attempts: https://www.grays.com/lot/0002-3033630/motor-vehicles-motor-cycles/2016-renault-master-mwb-mid-roof-turbo-diesel-manual-van
-Error extracting Location: list index out of range
-Error extracting Location: list index out of range
+Unknown status for URL: https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van (Attempt 1)
+Unknown status for URL: https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van (Attempt 2)
+Unknown status for URL: https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van (Attempt 3)
+Failed to retrieve page after 3 attempts: https://www.grays.com/lot/0001-3033630/motor-vehicles-motor-cycles/2024-renault-master-l2h2-mwb-turbo-diesel-manual-van
 Unknown status for URL: https://www.grays.com/lot/0117-3033596/motor-vehicles-motor-cycles/1992-honda-dio-sr-motorcycle (Attempt 1)
 Unknown status for URL: https://www.grays.com/lot/0117-3033596/motor-vehicles-motor-cycles/1992-honda-dio-sr-motorcycle (Attempt 2)
 Unknown status for URL: https://www.grays.com/lot/0117-3033596/motor-vehicles-motor-cycles/1992-honda-dio-sr-motorcycle (Attempt 3)
