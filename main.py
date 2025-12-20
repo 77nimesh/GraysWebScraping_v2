@@ -1,5 +1,6 @@
 import asyncio
 import os
+from pathlib import Path
 import logging
 from colorlog import ColoredFormatter
 from playwright.async_api import async_playwright
