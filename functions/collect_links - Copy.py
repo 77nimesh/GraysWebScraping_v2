@@ -12,7 +12,7 @@ AUCTION_URL_TEMPLATE = ("https://www.grays.com/search/automotive-trucks-and-mari
                         "motor-vehiclesmotor-cycles?tab=items&sort=close-time-asc&page={}")
 
 # CSV file for storing links
-CSV_FILE = 'CSV_data/car_links.csv'
+CSV_FILE = '../CSV_data/car_links.csv'
 
 async def main():
     """Main function to scrape car links and update the CSV file."""
