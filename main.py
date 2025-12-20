@@ -159,6 +159,9 @@ async def main():
                     elif status_code == 'error':
                         logging.error(f"Failed to retrieve URL (will retry later): {url}")
 
+            out_dir = Path("../soldcartracker.github.io/JSON_data")
+            out_dir.mkdir(parents=True, exist_ok=True)
+
             car_links_df = pd.DataFrame(car_links, columns=['Car Links'])
             car_links_df.to_csv('CSV_data/car_links.csv', index=False)
             referred_df.to_csv('CSV_data/referred_cars.csv', index=False)
